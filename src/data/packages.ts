@@ -34,7 +34,7 @@ export const PACKAGES_DATA: TourPackage[] = [
       "Mangalore Ghee Roast Trail",
       "Kaup Lighthouse"
     ],
-    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/gokarna-om-beach.jpg",
     "stayIncluded": true,
     "transportIncluded": true,
     "routeMapPoints": [
@@ -276,7 +276,7 @@ export const PACKAGES_DATA: TourPackage[] = [
       "Somanathapura Hoysala Temple",
       "Srirangapatna Daria Daulat"
     ],
-    "image": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/halebeedu-hoysaleshwara.jpg",
     "stayIncluded": true,
     "transportIncluded": true,
     "routeMapPoints": [
@@ -496,7 +496,7 @@ export const PACKAGES_DATA: TourPackage[] = [
       "Pattadakal UNESCO Temples",
       "Gol Gumbaz Whispering Gallery"
     ],
-    "image": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/pattadakal-monuments.jpg",
     "stayIncluded": true,
     "transportIncluded": true,
     "routeMapPoints": [
@@ -732,7 +732,7 @@ export const PACKAGES_DATA: TourPackage[] = [
       "Devaraja Market Walk",
       "Authentic Mysore Pak"
     ],
-    "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/districts/mysuru.jpg",
     "stayIncluded": true,
     "transportIncluded": true,
     "routeMapPoints": [
@@ -854,7 +854,7 @@ export const PACKAGES_DATA: TourPackage[] = [
       "Tungabhadra Coracle Ride",
       "Royal Enclave"
     ],
-    "image": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/districts/vijayanagara.jpg",
     "stayIncluded": true,
     "transportIncluded": true,
     "routeMapPoints": [
@@ -1025,7 +1025,7 @@ export const PACKAGES_DATA: TourPackage[] = [
       "Nandi Hills Sunrise",
       "Kotilingeshwara Temple"
     ],
-    "image": "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/districts/bengaluru-urban.jpg",
     "stayIncluded": true,
     "transportIncluded": true,
     "routeMapPoints": [
@@ -1205,7 +1205,7 @@ export const PACKAGES_DATA: TourPackage[] = [
       "Ranganathittu Croc & Bird Boat Safari",
       "BR Hills Tiger Sanctuary"
     ],
-    "image": "https://images.unsplash.com/photo-1561731216-c3a4d99437d5?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/districts/chamarajanagar.jpg",
     "stayIncluded": true,
     "transportIncluded": true,
     "routeMapPoints": [

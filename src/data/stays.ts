@@ -12,7 +12,7 @@ export const STAYS_DATA: YaatriNiwaasProperty[] = [
     "rating": 4.5,
     "reviewsCount": 140,
     "priceStarting": 1250,
-    "image": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/districts/bagalkote.jpg",
     "amenities": [
       "Free High-Speed Wi-Fi",
       "Complimentary Traditional Breakfast",
@@ -105,7 +105,7 @@ export const STAYS_DATA: YaatriNiwaasProperty[] = [
     "rating": 4.7,
     "reviewsCount": 193,
     "priceStarting": 1250,
-    "image": "https://images.unsplash.com/photo-1596405344148-2d0df3365f5a?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/districts/ballari.jpg",
     "amenities": [
       "Free High-Speed Wi-Fi",
       "Complimentary Traditional Breakfast",
@@ -198,7 +198,7 @@ export const STAYS_DATA: YaatriNiwaasProperty[] = [
     "rating": 4.9,
     "reviewsCount": 246,
     "priceStarting": 1250,
-    "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/districts/bengaluru-rural.jpg",
     "amenities": [
       "Free High-Speed Wi-Fi",
       "Complimentary Traditional Breakfast",
@@ -291,7 +291,7 @@ export const STAYS_DATA: YaatriNiwaasProperty[] = [
     "rating": 4.6,
     "reviewsCount": 299,
     "priceStarting": 1250,
-    "image": "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/districts/bengaluru-urban.jpg",
     "amenities": [
       "Free High-Speed Wi-Fi",
       "Complimentary Traditional Breakfast",
@@ -384,7 +384,7 @@ export const STAYS_DATA: YaatriNiwaasProperty[] = [
     "rating": 4.8,
     "reviewsCount": 352,
     "priceStarting": 1250,
-    "image": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/districts/belagavi.jpg",
     "amenities": [
       "Free High-Speed Wi-Fi",
       "Complimentary Traditional Breakfast",
@@ -477,7 +477,7 @@ export const STAYS_DATA: YaatriNiwaasProperty[] = [
     "rating": 4.5,
     "reviewsCount": 405,
     "priceStarting": 1250,
-    "image": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/districts/bidar.jpg",
     "amenities": [
       "Free High-Speed Wi-Fi",
       "Complimentary Traditional Breakfast",
@@ -570,7 +570,7 @@ export const STAYS_DATA: YaatriNiwaasProperty[] = [
     "rating": 4.7,
     "reviewsCount": 458,
     "priceStarting": 1250,
-    "image": "https://images.unsplash.com/photo-1561731216-c3a4d99437d5?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/districts/chamarajanagar.jpg",
     "amenities": [
       "Free High-Speed Wi-Fi",
       "Complimentary Traditional Breakfast",
@@ -663,7 +663,7 @@ export const STAYS_DATA: YaatriNiwaasProperty[] = [
     "rating": 4.9,
     "reviewsCount": 511,
     "priceStarting": 1250,
-    "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/districts/chikkaballapur.jpg",
     "amenities": [
       "Free High-Speed Wi-Fi",
       "Complimentary Traditional Breakfast",
@@ -756,7 +756,7 @@ export const STAYS_DATA: YaatriNiwaasProperty[] = [
     "rating": 4.6,
     "reviewsCount": 564,
     "priceStarting": 1250,
-    "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/districts/chikkamagaluru.jpg",
     "amenities": [
       "Free High-Speed Wi-Fi",
       "Complimentary Traditional Breakfast",
@@ -849,7 +849,7 @@ export const STAYS_DATA: YaatriNiwaasProperty[] = [
     "rating": 4.8,
     "reviewsCount": 167,
     "priceStarting": 1250,
-    "image": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/districts/chitradurga.jpg",
     "amenities": [
       "Free High-Speed Wi-Fi",
       "Complimentary Traditional Breakfast",
@@ -942,7 +942,7 @@ export const STAYS_DATA: YaatriNiwaasProperty[] = [
     "rating": 4.5,
     "reviewsCount": 220,
     "priceStarting": 1250,
-    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/districts/dakshina-kannada.jpg",
     "amenities": [
       "Free High-Speed Wi-Fi",
       "Complimentary Traditional Breakfast",
@@ -1035,7 +1035,7 @@ export const STAYS_DATA: YaatriNiwaasProperty[] = [
     "rating": 4.7,
     "reviewsCount": 273,
     "priceStarting": 1250,
-    "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/districts/davanagere.jpg",
     "amenities": [
       "Free High-Speed Wi-Fi",
       "Complimentary Traditional Breakfast",
@@ -1128,7 +1128,7 @@ export const STAYS_DATA: YaatriNiwaasProperty[] = [
     "rating": 4.9,
     "reviewsCount": 326,
     "priceStarting": 1250,
-    "image": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/districts/dharwad.jpg",
     "amenities": [
       "Free High-Speed Wi-Fi",
       "Complimentary Traditional Breakfast",
@@ -1221,7 +1221,7 @@ export const STAYS_DATA: YaatriNiwaasProperty[] = [
     "rating": 4.6,
     "reviewsCount": 379,
     "priceStarting": 1250,
-    "image": "https://images.unsplash.com/photo-1596405344148-2d0df3365f5a?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/districts/gadag.jpg",
     "amenities": [
       "Free High-Speed Wi-Fi",
       "Complimentary Traditional Breakfast",
@@ -1314,7 +1314,7 @@ export const STAYS_DATA: YaatriNiwaasProperty[] = [
     "rating": 4.8,
     "reviewsCount": 432,
     "priceStarting": 1250,
-    "image": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/districts/hassan.jpg",
     "amenities": [
       "Free High-Speed Wi-Fi",
       "Complimentary Traditional Breakfast",
@@ -1407,7 +1407,7 @@ export const STAYS_DATA: YaatriNiwaasProperty[] = [
     "rating": 4.5,
     "reviewsCount": 485,
     "priceStarting": 1250,
-    "image": "https://images.unsplash.com/photo-1596405344148-2d0df3365f5a?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/districts/haveri.jpg",
     "amenities": [
       "Free High-Speed Wi-Fi",
       "Complimentary Traditional Breakfast",
@@ -1500,7 +1500,7 @@ export const STAYS_DATA: YaatriNiwaasProperty[] = [
     "rating": 4.7,
     "reviewsCount": 538,
     "priceStarting": 1250,
-    "image": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/districts/kalaburagi.jpg",
     "amenities": [
       "Free High-Speed Wi-Fi",
       "Complimentary Traditional Breakfast",
@@ -1593,7 +1593,7 @@ export const STAYS_DATA: YaatriNiwaasProperty[] = [
     "rating": 4.9,
     "reviewsCount": 141,
     "priceStarting": 1250,
-    "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/districts/kodagu.jpg",
     "amenities": [
       "Free High-Speed Wi-Fi",
       "Complimentary Traditional Breakfast",
@@ -1686,7 +1686,7 @@ export const STAYS_DATA: YaatriNiwaasProperty[] = [
     "rating": 4.6,
     "reviewsCount": 194,
     "priceStarting": 1250,
-    "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/districts/kolar.jpg",
     "amenities": [
       "Free High-Speed Wi-Fi",
       "Complimentary Traditional Breakfast",
@@ -1779,7 +1779,7 @@ export const STAYS_DATA: YaatriNiwaasProperty[] = [
     "rating": 4.8,
     "reviewsCount": 247,
     "priceStarting": 1250,
-    "image": "https://images.unsplash.com/photo-1596405344148-2d0df3365f5a?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/districts/koppal.jpg",
     "amenities": [
       "Free High-Speed Wi-Fi",
       "Complimentary Traditional Breakfast",
@@ -1872,7 +1872,7 @@ export const STAYS_DATA: YaatriNiwaasProperty[] = [
     "rating": 4.5,
     "reviewsCount": 300,
     "priceStarting": 1250,
-    "image": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/districts/mandya.jpg",
     "amenities": [
       "Free High-Speed Wi-Fi",
       "Complimentary Traditional Breakfast",
@@ -1965,7 +1965,7 @@ export const STAYS_DATA: YaatriNiwaasProperty[] = [
     "rating": 4.7,
     "reviewsCount": 353,
     "priceStarting": 1250,
-    "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/districts/mysuru.jpg",
     "amenities": [
       "Free High-Speed Wi-Fi",
       "Complimentary Traditional Breakfast",
@@ -2058,7 +2058,7 @@ export const STAYS_DATA: YaatriNiwaasProperty[] = [
     "rating": 4.9,
     "reviewsCount": 406,
     "priceStarting": 1250,
-    "image": "https://images.unsplash.com/photo-1596405344148-2d0df3365f5a?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/districts/raichur.jpg",
     "amenities": [
       "Free High-Speed Wi-Fi",
       "Complimentary Traditional Breakfast",
@@ -2151,7 +2151,7 @@ export const STAYS_DATA: YaatriNiwaasProperty[] = [
     "rating": 4.6,
     "reviewsCount": 459,
     "priceStarting": 1250,
-    "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/districts/ramanagara.jpg",
     "amenities": [
       "Free High-Speed Wi-Fi",
       "Complimentary Traditional Breakfast",
@@ -2244,7 +2244,7 @@ export const STAYS_DATA: YaatriNiwaasProperty[] = [
     "rating": 4.8,
     "reviewsCount": 512,
     "priceStarting": 1250,
-    "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/districts/shivamogga.jpg",
     "amenities": [
       "Free High-Speed Wi-Fi",
       "Complimentary Traditional Breakfast",
@@ -2337,7 +2337,7 @@ export const STAYS_DATA: YaatriNiwaasProperty[] = [
     "rating": 4.5,
     "reviewsCount": 565,
     "priceStarting": 1250,
-    "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/districts/tumakuru.jpg",
     "amenities": [
       "Free High-Speed Wi-Fi",
       "Complimentary Traditional Breakfast",
@@ -2430,7 +2430,7 @@ export const STAYS_DATA: YaatriNiwaasProperty[] = [
     "rating": 4.7,
     "reviewsCount": 168,
     "priceStarting": 1250,
-    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/districts/udupi.jpg",
     "amenities": [
       "Free High-Speed Wi-Fi",
       "Complimentary Traditional Breakfast",
@@ -2523,7 +2523,7 @@ export const STAYS_DATA: YaatriNiwaasProperty[] = [
     "rating": 4.9,
     "reviewsCount": 221,
     "priceStarting": 1250,
-    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/districts/uttara-kannada.jpg",
     "amenities": [
       "Free High-Speed Wi-Fi",
       "Complimentary Traditional Breakfast",
@@ -2616,7 +2616,7 @@ export const STAYS_DATA: YaatriNiwaasProperty[] = [
     "rating": 4.6,
     "reviewsCount": 274,
     "priceStarting": 1250,
-    "image": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/districts/vijayapura.jpg",
     "amenities": [
       "Free High-Speed Wi-Fi",
       "Complimentary Traditional Breakfast",
@@ -2709,7 +2709,7 @@ export const STAYS_DATA: YaatriNiwaasProperty[] = [
     "rating": 4.8,
     "reviewsCount": 327,
     "priceStarting": 1250,
-    "image": "https://images.unsplash.com/photo-1596405344148-2d0df3365f5a?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/districts/yadgir.jpg",
     "amenities": [
       "Free High-Speed Wi-Fi",
       "Complimentary Traditional Breakfast",
@@ -2802,7 +2802,7 @@ export const STAYS_DATA: YaatriNiwaasProperty[] = [
     "rating": 4.5,
     "reviewsCount": 380,
     "priceStarting": 1250,
-    "image": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/districts/vijayanagara.jpg",
     "amenities": [
       "Free High-Speed Wi-Fi",
       "Complimentary Traditional Breakfast",

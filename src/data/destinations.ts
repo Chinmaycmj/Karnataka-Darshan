@@ -15,7 +15,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Chalukya"
     ],
     "description": "Four magnificent 6th-century rock-cut cave shrines carved into red sandstone cliffs overlooking Agastya Lake, dedicated to Shiva, Vishnu, and Jain tirthankaras.",
-    "image": "https://images.unsplash.com/photo-1624442111197-0f81d19dc81e?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/badami-caves.jpg",
     "rating": 4.8,
     "entryFee": "₹25 (Indians), ₹300 (Foreigners)",
     "timings": "9:00 AM - 5:30 PM",
@@ -42,7 +42,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Chalukya"
     ],
     "description": "A UNESCO World Heritage site on the Malaprabha river, featuring a grand 7th-8th century confluence of northern Nagara and southern Dravida architectural styles.",
-    "image": "https://images.unsplash.com/photo-1609137144822-2633cb8e29a9?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/pattadakal-monuments.jpg",
     "rating": 4.9,
     "entryFee": "₹40 (Indians), ₹600 (Foreigners)",
     "timings": "6:00 AM - 6:00 PM",
@@ -69,7 +69,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Archaeology"
     ],
     "description": "Known as the cradle of Hindu temple architecture with over 120 stone temples, highlighted by the apsidal Durga Temple with its peristylar verandah.",
-    "image": "https://images.unsplash.com/photo-1609137144822-2633cb8e29a9?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/aihole-complex.jpg",
     "rating": 4.7,
     "entryFee": "₹25 (Indians), ₹300 (Foreigners)",
     "timings": "9:00 AM - 5:00 PM",
@@ -95,7 +95,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Historical"
     ],
     "description": "A massive hill fortress built atop a single giant monolithic granite hill (Ballari Gudda), fortified by Hanumappa Nayaka and later reconstructed by French engineers under Hyder Ali.",
-    "image": "https://images.unsplash.com/photo-1596405344148-2d0df3365f5a?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/ballari-fort.jpg",
     "rating": 4.5,
     "entryFee": "Free Entry",
     "timings": "6:00 AM - 6:00 PM",
@@ -121,7 +121,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Monuments"
     ],
     "description": "A 1501 stone fortress constructed by Mallabaire Gowda, famous as the historic birthplace of Tipu Sultan, featuring bastions and ancient temples.",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/devanahalli-fort.jpg",
     "rating": 4.5,
     "entryFee": "Free Entry",
     "timings": "8:00 AM - 6:00 PM",
@@ -146,7 +146,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Dravidian"
     ],
     "description": "An ancient 600-year-old pilgrimage shrine where Lord Subramanya and Lord Lakshmi Narasimha are carved back-to-back on a single monolith idol.",
-    "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/ghati-subramanya.jpg",
     "rating": 4.7,
     "entryFee": "Free Entry",
     "timings": "6:00 AM - 8:30 PM",
@@ -171,7 +171,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Wadiyar"
     ],
     "description": "A magnificent Tudor-style royal palace inspired by Windsor Castle, featuring fortified towers, stained-glass windows, and royal memorabilia.",
-    "image": "https://images.unsplash.com/photo-1580655653885-65763b2597d0?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/bangalore-palace.jpg",
     "rating": 4.6,
     "entryFee": "₹250 (Indians), ₹500 (Foreigners)",
     "timings": "10:00 AM - 5:30 PM",
@@ -197,7 +197,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Historic Garden"
     ],
     "description": "A 240-acre botanical paradise housing century-old trees, a London Crystal Palace-inspired Glass House, and a 3-billion-year-old rock outcrop.",
-    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/lalbagh-botanical-garden.jpg",
     "rating": 4.7,
     "entryFee": "₹25",
     "timings": "6:00 AM - 7:00 PM",
@@ -223,7 +223,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Ratta Dynasty"
     ],
     "description": "An oval fort built in 1204 AD housing the Kamal Basti with its astonishing 72-petal inverted lotus dome carved from soapstone.",
-    "image": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/belagavi-fort.jpg",
     "rating": 4.6,
     "entryFee": "Free Entry",
     "timings": "8:00 AM - 6:30 PM",
@@ -248,7 +248,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Ghataprabha"
     ],
     "description": "The Ghataprabha river plunges 170 feet down a horseshoe-shaped sandstone gorge, spanned by a dramatic 1907 pedestrian hanging bridge.",
-    "image": "https://images.unsplash.com/photo-1518457607834-6e8d80c183c5?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/gokak-falls.jpg",
     "rating": 4.7,
     "entryFee": "Free Entry",
     "timings": "7:00 AM - 6:00 PM",
@@ -274,7 +274,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Royal Palace"
     ],
     "description": "A 15th-century Bahmani citadel ringed by a triple-tiered moat, containing the mother-of-pearl Rangeen Mahal and Solah Khamba Mosque.",
-    "image": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/bidar-fort.jpg",
     "rating": 4.8,
     "entryFee": "Free Entry",
     "timings": "6:00 AM - 6:30 PM",
@@ -300,7 +300,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Pilgrimage"
     ],
     "description": "Historic Sikh pilgrimage site blessed by Guru Nanak Dev Ji in 1512 AD with a miraculous freshwater spring emerging from laterite hills.",
-    "image": "https://images.unsplash.com/photo-1590496793929-36417d3117de?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/nanak-jhira-bidar.jpg",
     "rating": 4.8,
     "entryFee": "Free Entry",
     "timings": "Open 24 Hours",
@@ -325,7 +325,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Nilgiri Biosphere"
     ],
     "description": "One of India premier Project Tiger sanctuaries, supporting dense populations of Bengal tigers, Indian elephants, leopards, and gaurs.",
-    "image": "https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/bandipur-tiger-reserve.jpg",
     "rating": 4.9,
     "entryFee": "₹450 (Bus Safari), ₹3,500 (Jeep Safari)",
     "timings": "6:00 AM - 9:30 AM & 3:30 PM - 6:30 PM",
@@ -352,7 +352,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Sunrise"
     ],
     "description": "An ancient hill fortress rising 4,851 feet above sea level, famous for mesmerizing sea-of-clouds sunrises and Tipu Sultan summer lodge.",
-    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/nandi-hills.jpg",
     "rating": 4.6,
     "entryFee": "₹20",
     "timings": "6:00 AM - 6:00 PM",
@@ -378,7 +378,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Stepwell"
     ],
     "description": "A thousand-year-old architectural jewel at the base of Nandi Hills dating back to the 9th century, featuring a magnificent stepped kalyani.",
-    "image": "https://images.unsplash.com/photo-1609137144822-2633cb8e29a9?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/bhoga-nandeeshwara.jpg",
     "rating": 4.8,
     "entryFee": "Free Entry",
     "timings": "6:00 AM - 7:00 PM",
@@ -403,7 +403,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Western Ghats"
     ],
     "description": "Standing at 6,330 feet (1,930 m), Mullayanagiri is the highest mountain summit in Karnataka, offering breathtaking vistas and cool mountain breeze.",
-    "image": "https://images.unsplash.com/photo-1511497584788-87676104235f?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/mullayanagiri-peak.jpg",
     "rating": 4.9,
     "entryFee": "Free Entry",
     "timings": "6:00 AM - 6:00 PM",
@@ -430,7 +430,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Cliffs"
     ],
     "description": "Sacred mountain range named after Sufi saint Baba Budan who brought India first seven coffee seeds in the 17th century.",
-    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/baba-budangiri.jpg",
     "rating": 4.7,
     "entryFee": "Free Entry",
     "timings": "6:00 AM - 6:00 PM",
@@ -455,7 +455,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Onake Obavva"
     ],
     "description": "An impregnable granite fortification spanning 1,500 acres with seven concentric circumvallations and 38 rear gateways defended by heroine Onake Obavva.",
-    "image": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/chitradurga-kallina-kote.jpg",
     "rating": 4.8,
     "entryFee": "₹25 (Indians), ₹300 (Foreigners)",
     "timings": "6:00 AM - 6:00 PM",
@@ -482,7 +482,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Sunset"
     ],
     "description": "A clean, safe golden sand beach on the Arabian Sea, famous for international kite festivals, jet ski rides, and sunset promenade.",
-    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/panambur-beach.jpg",
     "rating": 4.6,
     "entryFee": "Free Entry",
     "timings": "Open 24 Hours",
@@ -508,7 +508,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Carved Pillars"
     ],
     "description": "Known as Tribhuvana Tilaka Chudamani, this 1430 AD Jain temple is supported by one thousand unique stone pillars, no two of which are identical.",
-    "image": "https://images.unsplash.com/photo-1615887110697-0819ec23465f?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/moodabidri-1000-pillar.jpg",
     "rating": 4.8,
     "entryFee": "Free Entry",
     "timings": "6:00 AM - 7:00 PM",
@@ -535,7 +535,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Palegar"
     ],
     "description": "A 16th-century stepped granite water tank with a multi-domed Vasantha Mantapa pavilion built in the center, combining Hindu and Saracenic architecture.",
-    "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/santhebennur-pushkarini.jpg",
     "rating": 4.7,
     "entryFee": "Free Entry",
     "timings": "8:00 AM - 6:00 PM",
@@ -561,7 +561,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "11th Century"
     ],
     "description": "An 11th-century Western Chalukyan architectural masterpiece built of black granite with four cardinal entrances and sculpted doorways.",
-    "image": "https://images.unsplash.com/photo-1599785209707-a456fc1337bb?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/chandramouleshwara-temple.jpg",
     "rating": 4.7,
     "entryFee": "Free Entry",
     "timings": "6:00 AM - 6:00 PM",
@@ -586,7 +586,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Kalyanis"
     ],
     "description": "An ancient university town holding over 50 Kalyana Chalukya and Hoysala temples and remarkable stepped kalyanis.",
-    "image": "https://images.unsplash.com/photo-1609137144822-2633cb8e29a9?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/lakkundi-stepwells.jpg",
     "rating": 4.8,
     "entryFee": "₹25",
     "timings": "8:30 AM - 5:30 PM",
@@ -612,7 +612,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Soapstone Carving"
     ],
     "description": "Commissioned in 1117 AD by King Vishnuvardhana, this UNESCO World Heritage soapstone temple is world-renowned for its 42 Madanika dancing figures.",
-    "image": "https://images.unsplash.com/photo-1615887110697-0819ec23465f?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/belur-chennakeshava.jpg",
     "rating": 4.9,
     "entryFee": "Free Entry",
     "timings": "7:30 AM - 8:00 PM",
@@ -639,7 +639,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Friezes"
     ],
     "description": "The capital of the Hoysala Empire housing twin Shiva shrines adorned with continuous exterior friezes of thousands of unique elephants, lions, and horses.",
-    "image": "https://images.unsplash.com/photo-1615887110697-0819ec23465f?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/halebeedu-hoysaleshwara.jpg",
     "rating": 4.9,
     "entryFee": "Free Entry",
     "timings": "6:30 AM - 6:30 PM",
@@ -665,7 +665,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Vindhyagiri"
     ],
     "description": "Carved in 981 AD atop Vindhyagiri hill, this 57-foot free-standing monolithic statue of Bahubali is one of the largest in the world.",
-    "image": "https://images.unsplash.com/photo-1615887110697-0819ec23465f?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/shravanabelagola-gommateshwara.jpg",
     "rating": 4.8,
     "entryFee": "Free Entry",
     "timings": "6:00 AM - 6:30 PM",
@@ -692,7 +692,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Photography"
     ],
     "description": "An evocative 1860 French Gothic church that gets hauntingly half-submerged every monsoon in the rising waters of Hemavathi reservoir.",
-    "image": "https://images.unsplash.com/photo-1518457607834-6e8d80c183c5?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/shettihalli-rosary-church.jpg",
     "rating": 4.7,
     "entryFee": "Free Entry",
     "timings": "Sunrise to Sunset",
@@ -718,7 +718,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Grassland"
     ],
     "description": "A 119 sq km scrub and grassland sanctuary protecting thousands of endangered blackbucks, Indian wolves, and the rare Great Indian Bustard.",
-    "image": "https://images.unsplash.com/photo-1484406566174-9da000fda645?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/ranebennur-blackbuck.jpg",
     "rating": 4.6,
     "entryFee": "₹50",
     "timings": "6:00 AM - 6:00 PM",
@@ -743,7 +743,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Spanish Cordoba Style"
     ],
     "description": "Originally fortified by Alauddin Bahman Shah in 1347, its Great Jami Masjid is famous for having its entire courtyard roofed with 63 domes.",
-    "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/gulbarga-fort.jpg",
     "rating": 4.7,
     "entryFee": "Free Entry",
     "timings": "9:00 AM - 5:30 PM",
@@ -770,7 +770,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Pilgrimage"
     ],
     "description": "The sacred resting shrine of 14th-century Chishti Sufi saint Hazrat Gesudaraz, renowned across India for its spiritual harmony and Indo-Islamic domes.",
-    "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/khwaja-bande-nawaz.jpg",
     "rating": 4.8,
     "entryFee": "Free Entry",
     "timings": "Open 24 Hours",
@@ -796,7 +796,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Western Ghats"
     ],
     "description": "Cascading through coffee estates and spice groves, the Kaveri river waters plunge 70 feet over rocky boulders, viewed from a suspension bridge.",
-    "image": "https://images.unsplash.com/photo-1592639296346-560c37a0f711?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/abbey-falls.jpg",
     "rating": 4.7,
     "entryFee": "₹15",
     "timings": "9:00 AM - 5:00 PM",
@@ -823,7 +823,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Sacred Tank"
     ],
     "description": "Perched 4,180 feet up in the Brahmagiri hills, this is the holy spring origin of Karnataka life-giving river Cauvery.",
-    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/talakaveri-bhagamandala.jpg",
     "rating": 4.8,
     "entryFee": "Free Entry",
     "timings": "6:00 AM - 6:30 PM",
@@ -849,7 +849,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "River Rafting"
     ],
     "description": "Historic elephant camp on the banks of the Cauvery where visitors can participate in elephant bathing and feeding.",
-    "image": "https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/dubare-elephant-camp.jpg",
     "rating": 4.7,
     "entryFee": "₹100 (Bathing extra)",
     "timings": "9:00 AM - 11:00 AM & 4:30 PM - 5:30 PM",
@@ -876,7 +876,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Nandi Statue"
     ],
     "description": "Famous worldwide for housing over 10 million (one crore) consecrated Shiva lingas spread across expansive grounds, with a towering 108-foot Maha Linga.",
-    "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/kotilingeshwara-temple.jpg",
     "rating": 4.6,
     "entryFee": "₹20",
     "timings": "6:00 AM - 9:00 PM",
@@ -903,7 +903,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Soapstone"
     ],
     "description": "Built in 1112 AD, an inscription explicitly proclaims this shrine as Devalaya Chakravarti (Emperor among Temples) for its unmatched proportions.",
-    "image": "https://images.unsplash.com/photo-1609137144822-2633cb8e29a9?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/itagi-mahadeva.jpg",
     "rating": 4.8,
     "entryFee": "Free Entry",
     "timings": "6:00 AM - 6:00 PM",
@@ -930,7 +930,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "First Hydroelectric"
     ],
     "description": "The river Cauvery splits around an island to thunder down twin 300-foot waterfalls, host to Asia first major hydroelectric power station established in 1902.",
-    "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/shivanasamudra-falls.jpg",
     "rating": 4.8,
     "entryFee": "Free Entry",
     "timings": "8:00 AM - 5:30 PM",
@@ -957,7 +957,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Painted Storks"
     ],
     "description": "Six picturesque riverine islets on the Cauvery supporting nesting colonies of painted storks, pelicans, and basking mugger crocodiles.",
-    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/ranganathittu-bird-sanctuary.jpg",
     "rating": 4.8,
     "entryFee": "₹70 (Boat ride ₹100)",
     "timings": "8:30 AM - 5:30 PM",
@@ -984,7 +984,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Illumination"
     ],
     "description": "The jewel of Karnataka royal heritage, designed with gilded durbar halls, stained-glass ceilings, and illuminated by 97,000 electric bulbs.",
-    "image": "https://images.unsplash.com/photo-1600100397608-f010f44383a0?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/mysuru-palace.jpg",
     "rating": 4.9,
     "entryFee": "₹100 (Indians), ₹200 (Foreigners)",
     "timings": "10:00 AM - 5:30 PM",
@@ -1012,7 +1012,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Stellate Plan"
     ],
     "description": "A UNESCO World Heritage trikuta Hoysala temple completed in 1268 AD, crowned by three star-shaped towers and covered with micro-carved epics.",
-    "image": "https://images.unsplash.com/photo-1615887110697-0819ec23465f?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/somanathapura-temple.jpg",
     "rating": 4.9,
     "entryFee": "₹25 (Indians), ₹300 (Foreigners)",
     "timings": "8:30 AM - 5:30 PM",
@@ -1039,7 +1039,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Vulture Reserve"
     ],
     "description": "Famous as Gabbar Singh den in the movie Sholay, this granite hill is India only dedicated sanctuary protecting Long-billed vultures.",
-    "image": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/ramadevara-betta.jpg",
     "rating": 4.7,
     "entryFee": "₹25",
     "timings": "9:00 AM - 5:00 PM",
@@ -1066,7 +1066,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Raja Roarer Rocket Rani"
     ],
     "description": "India second highest untiered plunge waterfall where the Sharavathi river drops 830 feet in four distinct cascades: Raja, Roarer, Rocket, and Rani.",
-    "image": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/jog-falls.jpg",
     "rating": 4.9,
     "entryFee": "₹15",
     "timings": "7:30 AM - 6:30 PM",
@@ -1094,7 +1094,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Sunset"
     ],
     "description": "Known as the Cherrapunji of the South for torrential rainfall, Agumbe is a rainforest reserve renowned for King Cobras and Arabian Sea sunsets.",
-    "image": "https://images.unsplash.com/photo-1511497584788-87676104235f?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/agumbe-rainforest.jpg",
     "rating": 4.8,
     "entryFee": "Free Entry",
     "timings": "Open 24 Hours",
@@ -1120,7 +1120,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Panoramic Views"
     ],
     "description": "A picturesque hill station ringed by forests, crowning the twin shrines of Bhoga Narasimha at the base and Yoga Narasimha atop the 3,940-foot rocky peak.",
-    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/devarayanadurga-hills.jpg",
     "rating": 4.6,
     "entryFee": "Free Entry",
     "timings": "7:00 AM - 6:00 PM",
@@ -1146,7 +1146,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Ashta Mathas"
     ],
     "description": "Established in the 13th century by Saint Madhvacharya, the deity is uniquely worshipped through a silver nine-holed window known as Kanakana Kindi.",
-    "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/udupi-sri-krishna-matha.jpg",
     "rating": 4.9,
     "entryFee": "Free Entry",
     "timings": "5:30 AM - 9:30 PM",
@@ -1174,7 +1174,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Ferry Ride"
     ],
     "description": "A designated Geological Monument off Malpe, formed by prehistoric volcanic activity creating hexagonal columnar basalt pillars.",
-    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/st-mary-island.jpg",
     "rating": 4.8,
     "entryFee": "₹400 (Boat ferry from Malpe Beach)",
     "timings": "9:30 AM - 5:30 PM",
@@ -1201,7 +1201,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Beach Trek"
     ],
     "description": "Where sacred pilgrimage meets pristine shoreline; home to the legendary Atmalinga at Mahabaleshwar Temple and naturally formed Om-shaped beach.",
-    "image": "https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/gokarna-om-beach.jpg",
     "rating": 4.9,
     "entryFee": "Free Entry",
     "timings": "Open 24 Hours",
@@ -1228,7 +1228,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Peninsula Beach"
     ],
     "description": "Surrounded on three sides by the Arabian Sea, featuring the world second-tallest Shiva statue (123 feet) and a 249-foot Rajagopuram with lifts.",
-    "image": "https://images.unsplash.com/photo-1628155930542-3c7a64e2c833?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/murudeshwara-temple.jpg",
     "rating": 4.9,
     "entryFee": "Free Entry (Gopura lift ₹20)",
     "timings": "6:00 AM - 1:00 PM & 3:00 PM - 8:30 PM",
@@ -1255,7 +1255,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Dense Jungle"
     ],
     "description": "South India premier whitewater rafting destination along the fast-flowing Kali River rapids, surrounded by dense tiger and black panther jungle corridors.",
-    "image": "https://images.unsplash.com/photo-1530866495561-507c9faab2ed?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/dandeli-kali-river.jpg",
     "rating": 4.8,
     "entryFee": "₹1,500 (Full 9 km rafting course)",
     "timings": "8:00 AM - 5:00 PM",
@@ -1282,7 +1282,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Adil Shahi"
     ],
     "description": "Mausoleum of Mohammed Adil Shah (1656 AD) boasting the second largest unsupported dome in the world, where whispers echo clearly 11 times.",
-    "image": "https://images.unsplash.com/photo-1599818491030-ad6a30c5e73a?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/gol-gumbaz.jpg",
     "rating": 4.9,
     "entryFee": "₹25 (Indians), ₹300 (Foreigners)",
     "timings": "6:00 AM - 6:00 PM",
@@ -1309,7 +1309,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Yadava Dynasty"
     ],
     "description": "A commanding medieval stone fortification built by the Yadavas of Devagiri on a rocky monolithic hill with three tiers of perimeter walls.",
-    "image": "https://images.unsplash.com/photo-1568454537842-d933259bb258?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/yadgir-fort.jpg",
     "rating": 4.5,
     "entryFee": "Free Entry",
     "timings": "6:00 AM - 6:00 PM",
@@ -1334,7 +1334,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Musical Pillars"
     ],
     "description": "The pinnacle of Vijayanagara art, housing the world-famous Stone Chariot (featured on India ₹50 note) and 56 musical stone pillars.",
-    "image": "https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/vittala-stone-chariot.jpg",
     "rating": 4.9,
     "entryFee": "₹40 (Combined ASI ticket for Hampi)",
     "timings": "8:30 AM - 5:30 PM",
@@ -1362,7 +1362,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Pinhole Camera"
     ],
     "description": "The oldest active temple in Hampi with unbroken worship since the 7th century, featuring a 160-foot eastern gopuram and an ancient pinhole camera effect.",
-    "image": "https://images.unsplash.com/photo-1609137144822-2633cb8e29a9?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/virupaksha-temple.jpg",
     "rating": 4.9,
     "entryFee": "₹25",
     "timings": "6:00 AM - 1:00 PM & 5:00 PM - 9:00 PM",
@@ -1389,7 +1389,7 @@ export const DESTINATIONS_DATA: Destination[] = [
       "Sunset Promenade"
     ],
     "description": "A massive multipurpose dam across the Tungabhadra near Hosapete, boasting illuminated Japanese gardens, deer parks, and sunset viewpoints.",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/destinations/tungabhadra-dam.jpg",
     "rating": 4.6,
     "entryFee": "₹20",
     "timings": "8:30 AM - 6:30 PM",

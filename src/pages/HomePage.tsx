@@ -91,7 +91,7 @@ export const HomePage: React.FC = () => {
         {/* Background Hero Image with Deep Gradient */}
         <div className="absolute inset-0 overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1600100397608-f010f44383a0?auto=format&fit=crop&w=2000&q=85"
+            src="/images/districts/mysuru.jpg"
             alt="Karnataka Heritage Tourism - Mysore Palace"
             className="w-full h-full object-cover scale-105 animate-subtleZoom opacity-45"
           />
@@ -424,28 +424,28 @@ export const HomePage: React.FC = () => {
               name: "Coastal Karnataka",
               kannada: "ಕರಾವಳಿ ಕರ್ನಾಟಕ",
               districts: "Udupi, Dakshina Kannada, Uttara Kannada",
-              img: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+              img: "/images/districts/udupi.jpg",
               desc: "320 km of Arabian Sea beaches, seafood ghee roast, and sacred temples."
             },
             {
               name: "Malnad & Ghats",
               kannada: "ಮಲೆನಾಡು ಗಿರಿಧಾಮಗಳು",
               districts: "Kodagu, Chikkamagaluru, Shivamogga, Hassan",
-              img: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80",
+              img: "/images/districts/shivamogga.jpg",
               desc: "Highest peaks, misty coffee plantations, shola forests, and Jog Falls."
             },
             {
               name: "North Karnataka Heritage",
               kannada: "ಉತ್ತರ ಕರ್ನಾಟಕ ಪರಂಪರೆ",
               districts: "Bagalkote, Belagavi, Dharwad, Gadag, Vijayapura, Vijayanagara",
-              img: "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=800&q=80",
+              img: "/images/districts/vijayanagara.jpg",
               desc: "UNESCO Hampi & Pattadakal, Badami caves, Gol Gumbaz, and stepwells."
             },
             {
               name: "Kalyana Karnataka",
               kannada: "ಕಲ್ಯಾಣ ಕರ್ನಾಟಕ",
               districts: "Bidar, Kalaburagi, Raichur, Koppal, Yadgir, Ballari",
-              img: "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80",
+              img: "/images/districts/bidar.jpg",
               desc: "Bahmani fortresses, Bidriware, Itagi Emperor of Temples, and Sufi shrines."
             }
           ].map((reg, idx) => (
@@ -504,7 +504,7 @@ export const HomePage: React.FC = () => {
 
           <div className="absolute right-0 top-0 bottom-0 w-1/2 opacity-35 hidden md:block">
             <img 
-              src="https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=1200&q=80" 
+              src="/images/districts/vijayanagara.jpg" 
               alt="Hampi Stone Chariot" 
               className="w-full h-full object-cover" 
             />
