@@ -1,4 +1,4 @@
-﻿import React from "react";
+import React from "react";
 import { AppProvider, useApp } from "./context/AppContext";
 import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
@@ -13,6 +13,7 @@ import { TransportPage } from "./pages/TransportPage";
 import { CustomTripPlannerPage } from "./pages/CustomTripPlannerPage";
 import { MyTripsPage } from "./pages/MyTripsPage";
 import { ConfirmationPage } from "./pages/ConfirmationPage";
+import { AIAssistantPage } from "./pages/AIAssistantPage";
 
 const AppContent: React.FC = () => {
   const { activeView } = useApp();
@@ -32,6 +33,7 @@ const AppContent: React.FC = () => {
         {activeView === "planner" && <CustomTripPlannerPage />}
         {activeView === "mytrips" && <MyTripsPage />}
         {activeView === "confirmation" && <ConfirmationPage />}
+        {activeView === "ai-assistant" && <AIAssistantPage />}
       </main>
 
       <Footer />

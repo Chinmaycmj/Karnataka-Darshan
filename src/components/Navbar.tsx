@@ -69,14 +69,8 @@ export const Navbar: React.FC = () => {
   ];
 
   const toggleAIAssistant = () => {
-    if (activeView !== "home") {
-      setActiveView("home");
-      setTimeout(() => {
-        window.dispatchEvent(new CustomEvent("open-yaatri-ai"));
-      }, 200);
-    } else {
-      window.dispatchEvent(new CustomEvent("open-yaatri-ai"));
-    }
+    setActiveView("ai-assistant");
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (

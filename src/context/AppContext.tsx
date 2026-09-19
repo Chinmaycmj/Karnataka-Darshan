@@ -12,7 +12,8 @@ export type ActiveView =
   | "transport" 
   | "planner" 
   | "mytrips" 
-  | "confirmation";
+  | "confirmation"
+  | "ai-assistant";
 
 export interface TransportNavigationOptions {
   fromCity?: string;
@@ -47,6 +48,9 @@ interface AppContextType {
   transportFilter: TransportNavigationOptions | null;
   setTransportFilter: (opts: TransportNavigationOptions | null) => void;
   navigateToTransport: (opts?: TransportNavigationOptions) => void;
+  mapFocusDistrictId: string | null;
+  setMapFocusDistrictId: (id: string | null) => void;
+  navigateToMapDistrict: (districtId: string) => void;
 }
 
 const AppContext = createContext<AppContextType | undefined>(undefined);
@@ -164,6 +168,18 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
 
   const [transportFilter, setTransportFilter] = useState<TransportNavigationOptions | null>(null);
 
+  const [mapFocusDistrictId, setMapFocusDistrictId] = useState<string | null>(null);
+
+  const navigateToMapDistrict = (districtId: string) => {
+    setSelectedDistrictId(districtId);
+    setMapFocusDistrictId(districtId);
+    setActiveView("home");
+    setTimeout(() => {
+      const el = document.getElementById("explore-karnataka-map-section");
+      el?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, 150);
+  };
+
   const navigateToTransport = (opts?: TransportNavigationOptions) => {
     if (opts) {
       setTransportFilter(opts);
@@ -201,7 +217,10 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
         navigateToPackage,
         transportFilter,
         setTransportFilter,
-        navigateToTransport
+        navigateToTransport,
+        mapFocusDistrictId,
+        setMapFocusDistrictId,
+        navigateToMapDistrict
       }}
     >
       {children}

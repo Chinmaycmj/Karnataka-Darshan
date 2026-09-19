@@ -6,7 +6,7 @@ import type { District, Destination, YaatriNiwaasProperty } from "../data/types"
 
 export interface AIAction {
   label: string;
-  actionType: "district" | "package" | "transport" | "stays" | "planner";
+  actionType: "district" | "package" | "transport" | "stays" | "planner" | "map";
   targetId?: string;
 }
 
@@ -285,7 +285,8 @@ Would you like me to book your KSRTC bus seat or view the Yaatri Niwaas rooms in
     return {
       reply,
       actions: [
-        { label: `View ${detected.name} District`, actionType: "district", targetId: detected.id },
+        { label: `🗺️ View ${detected.name} on Map`, actionType: "map", targetId: detected.id },
+        { label: `View ${detected.name} Guide`, actionType: "district", targetId: detected.id },
         { label: `Book Bus to ${detected.name}`, actionType: "transport" },
         { label: `Book Yaatri Niwaas ${detected.name}`, actionType: "stays", targetId: stay?.id }
       ]
@@ -354,7 +355,8 @@ ${detected.foodSpecialties.map(f => `• **${f.name}**: ${f.description}`).join(
     return {
       reply,
       actions: [
-        { label: `Explore ${detected.name} Full Guide`, actionType: "district", targetId: detected.id },
+        { label: `🗺️ View ${detected.name} on Map`, actionType: "map", targetId: detected.id },
+        { label: `Explore ${detected.name} Guide`, actionType: "district", targetId: detected.id },
         { label: `Book Yaatri Niwaas ${detected.name}`, actionType: "stays", targetId: stay?.id },
         { label: "Launch Custom Trip Planner", actionType: "planner" }
       ]
@@ -391,6 +393,7 @@ ${nearbyList}
 Would you like me to map out a multi-district circuit package connecting ${detected.name} with ${nearbyDistricts[0]?.name || "nearby districts"}?`;
 
     const actions: AIAction[] = [
+      { label: `🗺️ View ${detected.name} on Map`, actionType: "map", targetId: detected.id },
       { label: `Explore ${detected.name}`, actionType: "district", targetId: detected.id }
     ];
     if (nearbyDistricts[0]) {
@@ -433,6 +436,7 @@ All Yaatri Niwaas properties in ${detected.name} feature an in-house restaurant 
       return {
         reply,
         actions: [
+          { label: `🗺️ View ${detected.name} on Map`, actionType: "map", targetId: detected.id },
           { label: `View ${detected.name} Food & Attractions`, actionType: "district", targetId: detected.id },
           { label: `Book Yaatri Niwaas in ${detected.name}`, actionType: "stays" }
         ]
@@ -542,6 +546,7 @@ How would you like to proceed? Ask me for a **1-day or 2-day itinerary**, **budg
     return {
       reply,
       actions: [
+        { label: `🗺️ View ${detected.name} on Map`, actionType: "map", targetId: detected.id },
         { label: `Explore All ${detected.name} Spots`, actionType: "district", targetId: detected.id },
         { label: `Plan 2-Day ${detected.name} Trip`, actionType: "planner" },
         { label: `Book Yaatri Niwaas Stay`, actionType: "stays", targetId: stay?.id }

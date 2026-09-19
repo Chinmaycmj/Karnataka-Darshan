@@ -153,7 +153,7 @@ export const HomePage: React.FC = () => {
           <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4 pt-4">
             <button
               onClick={() => {
-                const el = document.getElementById("all-districts-section");
+                const el = document.getElementById("explore-karnataka-map-section");
                 el?.scrollIntoView({ behavior: "smooth" });
               }}
               className="px-7 py-3.5 rounded-xl text-xs sm:text-sm font-bold uppercase tracking-wider text-[#032B43] bg-white hover:bg-blue-50 shadow-xl hover:shadow-2xl transition-all duration-200 flex items-center gap-2 transform hover:scale-105 cursor-pointer"
@@ -198,9 +198,44 @@ export const HomePage: React.FC = () => {
 
       </section>
 
-      {/* AI ASSISTANT CONCIERGE */}
+      {/* 2. YAATRI AI PROMOTIONAL CARD */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-6 relative z-20">
-        <YaatriAIAssistant isEmbedded={true} />
+        <div className="bg-gradient-to-r from-[#032B43] via-[#073B5C] to-[#032B43] rounded-3xl p-6 sm:p-8 text-white shadow-2xl border border-white/15 relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-6 group">
+          <div className="absolute -right-20 -top-20 w-64 h-64 bg-[#D99A24]/15 rounded-full blur-3xl pointer-events-none"></div>
+          
+          <div className="space-y-2 max-w-2xl relative z-10 text-center md:text-left">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#D99A24]/20 border border-[#D99A24]/40 text-[#D99A24] text-xs font-bold uppercase tracking-widest">
+              <Sparkles className="w-3.5 h-3.5 text-[#D99A24]" />
+              <span>Smart Travel Assistant</span>
+            </div>
+            
+            <h3 className="font-serif text-2xl sm:text-3xl font-extrabold text-white tracking-tight flex items-center justify-center md:justify-start gap-2">
+              <span>YAATRI AI</span>
+              <span className="text-[#D99A24]">✨</span>
+            </h3>
+
+            <p className="text-sm sm:text-base text-blue-100 font-medium">
+              Your Karnataka Travel Assistant
+            </p>
+
+            <p className="text-xs sm:text-sm text-blue-200/80 font-light leading-relaxed">
+              Plan trips, explore districts, discover food, find attractions and build personalized itineraries.
+            </p>
+          </div>
+
+          <div className="shrink-0 relative z-10 w-full md:w-auto">
+            <button
+              onClick={() => {
+                setActiveView("ai-assistant");
+                window.scrollTo({ top: 0, behavior: "smooth" });
+              }}
+              className="w-full md:w-auto px-8 py-4 rounded-2xl bg-gradient-to-r from-[#D99A24] via-amber-400 to-[#D99A24] hover:from-amber-300 hover:to-[#D99A24] text-slate-950 font-black text-xs sm:text-sm tracking-wider uppercase shadow-xl hover:shadow-2xl transition-all duration-200 transform hover:scale-105 flex items-center justify-center gap-2 cursor-pointer"
+            >
+              <Sparkles className="w-4 h-4 text-slate-950 fill-current" />
+              <span>CHAT WITH YAATRI AI →</span>
+            </button>
+          </div>
+        </div>
       </section>
 
       {/* 4. EXPLORE KARNATAKA SECTION */}
@@ -330,21 +365,42 @@ export const HomePage: React.FC = () => {
         </div>
       </section>
 
-      {/* 5. ALL 31 DISTRICTS SECTION */}
-      <section id="all-districts-section" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
+      {/* 5. REAL GEOGRAPHIC MAP & 31 DISTRICTS SECTION */}
+      <section id="explore-karnataka-map-section" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10 scroll-mt-24">
         
-        <div className="text-center space-y-2 max-w-3xl mx-auto">
-          <span className="text-xs font-bold uppercase tracking-wider text-amber-700">
-            {language === "kn" ? "ಸಮಗ್ರ ಕರ್ನಾಟಕ ದತ್ತಸಂಚಯ" : "Comprehensive 31-District Directory"}
-          </span>
-          <h2 className="font-serif text-3xl sm:text-4xl font-bold text-slate-900">
-            {t.all31Districts}
+        <div className="text-center space-y-3 max-w-3xl mx-auto">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-blue-50 border border-blue-200 text-[#073B5C] text-xs font-bold uppercase tracking-widest">
+            <Compass className="w-3.5 h-3.5 text-[#0B5E8E]" />
+            <span>Interactive GIS Cartography</span>
+          </div>
+          <h2 className="font-serif text-3xl sm:text-5xl font-extrabold text-[#032B43] tracking-tight uppercase">
+            {language === "kn" ? "ಕರ್ನಾಟಕವನ್ನು ಅನ್ವೇಷಿಸಿ" : "EXPLORE KARNATAKA"}
           </h2>
-          <p className="text-sm text-slate-600">
+          <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
             {language === "kn" 
-              ? "ವಿಜಯನಗರ ಸೇರಿದಂತೆ ಕರ್ನಾಟಕದ ಎಲ್ಲಾ 31 ಜಿಲ್ಲೆಗಳ ದತ್ತಾಂಶ, ಪ್ರಮುಖ ಆಕರ್ಷಣೆಗಳು ಮತ್ತು ವಸತಿ ಆಯ್ಕೆಗಳನ್ನು ಪರಿಶೀಲಿಸಿ."
-              : "Every single district has its own dedicated page with genuine Karnataka destinations, local food specialties, and Yaatri Niwaas accommodations."}
+              ? "7 ಅನನ್ಯ ಪ್ರವಾಸೋದ್ಯಮ ವಲಯಗಳಲ್ಲಿ ಎಲ್ಲಾ 31 ಜಿಲ್ಲೆಗಳನ್ನು ಅನ್ವೇಷಿಸಿ."
+              : "Discover all 31 districts across 7 unique tourism regions."}
           </p>
+
+          {/* Quick Statistics Bar */}
+          <div className="pt-2 grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-2xl mx-auto text-center">
+            <div className="bg-white p-3 rounded-2xl border border-slate-200 shadow-2xs">
+              <span className="font-price font-extrabold text-xl sm:text-2xl text-[#0B5E8E] block">31</span>
+              <span className="text-[10px] uppercase font-bold text-slate-500 tracking-wider">Districts</span>
+            </div>
+            <div className="bg-white p-3 rounded-2xl border border-slate-200 shadow-2xs">
+              <span className="font-price font-extrabold text-xl sm:text-2xl text-[#D99A24] block">7</span>
+              <span className="text-[10px] uppercase font-bold text-slate-500 tracking-wider">Tourism Regions</span>
+            </div>
+            <div className="bg-white p-3 rounded-2xl border border-slate-200 shadow-2xs">
+              <span className="font-price font-extrabold text-xl sm:text-2xl text-[#059669] block">100+</span>
+              <span className="text-[10px] uppercase font-bold text-slate-500 tracking-wider">Attractions</span>
+            </div>
+            <div className="bg-white p-3 rounded-2xl border border-slate-200 shadow-2xs">
+              <span className="font-price font-extrabold text-xl sm:text-2xl text-[#E11D48] block">31</span>
+              <span className="text-[10px] uppercase font-bold text-slate-500 tracking-wider">Yaatri Stays</span>
+            </div>
+          </div>
         </div>
 
         {/* Interactive Karnataka SVG Map */}
@@ -535,7 +591,7 @@ export const HomePage: React.FC = () => {
               key={idx}
               onClick={() => {
                 setActiveRegionTab(reg.name.split(" ")[0]);
-                const el = document.getElementById("all-districts-section");
+                const el = document.getElementById("explore-karnataka-map-section");
                 el?.scrollIntoView({ behavior: "smooth" });
               }}
               className="group relative h-72 rounded-3xl overflow-hidden border border-slate-200 cursor-pointer shadow-sm hover:shadow-xl transition-all"
