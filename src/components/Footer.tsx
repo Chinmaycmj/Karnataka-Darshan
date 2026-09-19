@@ -2,37 +2,31 @@ import React from "react";
 import { useApp } from "../context/AppContext";
 import { MapPin, Phone, Mail, Globe, Heart, ShieldCheck } from "lucide-react";
 import { DISTRICTS_DATA } from "../data/districts";
+import { KarnavistaLogo } from "./KarnavistaLogo";
 
 export const Footer: React.FC = () => {
   const { language, setLanguage, setActiveView, navigateToDistrict } = useApp();
 
   return (
-    <footer className="bg-slate-900 text-slate-300 pt-16 pb-12 border-t border-slate-800">
+    <footer className="bg-[#032B43] text-slate-300 pt-16 pb-12 border-t border-[#073B5C]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Top Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-slate-800">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-white/10">
           
           {/* Brand Info */}
           <div className="lg:col-span-2 space-y-4">
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-amber-500 to-amber-700 flex items-center justify-center text-white font-serif font-bold text-xl">
-                ಯಾ
-              </div>
-              <span className="font-serif font-extrabold text-2xl text-white tracking-tight">
-                YAATRI NIWAAS
-              </span>
-            </div>
+            <KarnavistaLogo variant="light" size="lg" showTagline={true} />
             
-            <p className="text-sm text-slate-400 leading-relaxed pr-6">
+            <p className="text-sm text-slate-300/90 leading-relaxed pr-6 pt-2">
               {language === "kn"
-                ? "ಕರ್ನಾಟಕದ ಎಲ್ಲಾ 31 ಜಿಲ್ಲೆಗಳ ಪ್ರವಾಸೋದ್ಯಮ, ಅಧಿಕೃತ ಯಾತ್ರಿ ನಿವಾಸ ವಸತಿ, ಕೆಎಸ್‌ಆರ್‌ಟಿಸಿ ಸಾರಿಗೆ ಹಾಗೂ ವೈಶಿಷ್ಟ್ಯಮಯ ಅನುಭವಗಳನ್ನು ಒಟ್ಟುಗೂಡಿಸುವ ಅಧಿಕೃತ ತಾಣ."
-                : "A unified Karnataka tourism ecosystem connecting authentic destinations, heritage circuits, Yaatri Niwaas accommodations, and KSRTC transit across all 31 districts."}
+                ? "ಕರ್ನಾಟಕದ ಎಲ್ಲಾ 31 ಜಿಲ್ಲೆಗಳ ಪ್ರವಾಸೋದ್ಯಮ, ಸಾಂಸ್ಕೃತಿಕ ಪರಂಪರೆ, ಪ್ರಕೃತಿ ಸೌಂದರ್ಯ, ಅಧಿಕೃತ ಯಾತ್ರಿ ನಿವಾಸ ವಸತಿ ಹಾಗೂ ಸಾರಿಗೆಯನ್ನು ಒಟ್ಟುಗೂಡಿಸುವ ಅಧಿಕೃತ ಪ್ಲಾಟ್‌ಫಾರ್ಮ್."
+                : "The official Karnataka tourism discovery platform. Explore heritage sanctuaries, misty hill stations, pristine Arabian Sea beaches, and authentic culinary trails across all 31 districts."}
             </p>
 
             <div className="flex items-center gap-3 pt-2 text-xs text-amber-400">
               <ShieldCheck className="w-4 h-4" />
-              <span>Government of Karnataka Tourism Benchmark Structure</span>
+              <span>Official Karnataka Tourism Platform • All 31 Districts Connected</span>
             </div>
           </div>
 
@@ -148,12 +142,12 @@ export const Footer: React.FC = () => {
         </div>
 
         {/* Bottom Credits */}
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
+        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400 gap-4">
           <p>
-            © {new Date().getFullYear()} YAATRI NIWAAS • Department of Tourism, Government of Karnataka.
+            © {new Date().getFullYear()} <strong className="text-white">KARNAVISTA</strong> • Department of Tourism, Government of Karnataka.
           </p>
-          <p className="flex items-center gap-1 text-slate-400">
-            Crafted for <span className="text-amber-400 font-semibold">One State. Many Worlds.</span>
+          <p className="flex items-center gap-1 text-slate-300">
+            Official Brand: <span className="text-amber-400 font-bold tracking-wider">SEE KARNATAKA. FEEL KARNATAKA.</span>
           </p>
         </div>
 

@@ -102,25 +102,21 @@ export const HomePage: React.FC = () => {
         <div className="relative z-10 max-w-5xl mx-auto text-center space-y-6 pt-10 sm:pt-16">
           
           {/* Official Tagline Pill */}
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-amber-300 text-xs sm:text-sm font-semibold tracking-wide animate-fadeIn">
-            <Sparkles className="w-4 h-4 text-amber-400" />
-            <span>{language === "kn" ? "ಅಧಿಕೃತ ಕರ್ನಾಟಕ ಪ್ರವಾಸೋದ್ಯಮ ಪೋರ್ಟಲ್" : "Official 31-District Tourism Network"}</span>
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#032B43]/80 backdrop-blur-md border border-[#D99A24]/40 text-[#D99A24] text-xs sm:text-sm font-bold tracking-widest uppercase animate-fadeIn shadow-lg">
+            <Sparkles className="w-4 h-4 text-[#D99A24]" />
+            <span>{language === "kn" ? "ಕರ್ನಾಟಕ ದರ್ಶನ" : "DISCOVER KARNATAKA"}</span>
           </div>
 
           {/* Main Headline */}
-          <h1 className="font-serif text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white leading-tight drop-shadow-lg">
-            {language === "kn" ? "ಕರ್ನಾಟಕ ದರ್ಶನ" : "DISCOVER KARNATAKA"}
+          <h1 className="font-serif text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white leading-tight drop-shadow-xl uppercase">
+            {language === "kn" ? "೩೧ ಜಿಲ್ಲೆಗಳು. ಅಸಂಖ್ಯಾತ ಅನುಭವಗಳು." : "31 DISTRICTS. COUNTLESS EXPERIENCES."}
           </h1>
 
-          {/* Subheading */}
-          <p className="font-serif text-lg sm:text-2xl text-amber-200/90 font-medium max-w-2xl mx-auto tracking-wide">
-            {t.heroSubheadline}
-          </p>
-
-          <p className="text-xs sm:text-base text-slate-300 max-w-2xl mx-auto font-light leading-relaxed">
+          {/* Supporting Text */}
+          <p className="text-base sm:text-xl text-blue-100 max-w-3xl mx-auto font-medium leading-relaxed drop-shadow-md">
             {language === "kn"
-              ? "ಹಂಪಿಯ ಶಿಲಾರಥದಿಂದ ಕರಾವಳಿಯ ರಮಣೀಯ ತೀರಗಳವರೆಗೆ, ಮಲೆನಾಡಿನ ಮಂಜುಗವಿದ ಕಾಫಿ ತೋಟಗಳಿಂದ ಬಾದಾಮಿಯ ಶಿಲಾ ಗುಹೆಗಳವರೆಗೆ — ಎಲ್ಲಾ 31 ಜಿಲ್ಲೆಗಳನ್ನು ಅನ್ವೇಷಿಸಿ."
-              : "From the UNESCO wonders of Hampi to the golden beaches of Gokarna, mist-clad peaks of Coorg, and magnificent Chalukyan caves of Badami — explore all 31 districts with ease."}
+              ? "ಕರ್ನಾಟಕದ ಪರಂಪರೆ, ಪ್ರಕೃತಿ, ಸಂಸ್ಕೃತಿ, ಆಹಾರ ಮತ್ತು ಗುಪ್ತ ತಾಣಗಳನ್ನು ಅನ್ವೇಷಿಸಿ — ಪ್ರತಿಯೊಂದು ಜಿಲ್ಲೆಯಲ್ಲೂ."
+              : "Explore Karnataka's heritage, nature, culture, food and hidden gems — district by district."}
           </p>
 
           {/* 3. HERO OMNI SEARCH BAR */}
@@ -160,10 +156,10 @@ export const HomePage: React.FC = () => {
                 const el = document.getElementById("all-districts-section");
                 el?.scrollIntoView({ behavior: "smooth" });
               }}
-              className="px-6 py-3.5 rounded-xl text-xs sm:text-sm font-bold text-slate-900 bg-white hover:bg-slate-100 shadow-lg hover:shadow-xl transition-all flex items-center gap-2"
+              className="px-7 py-3.5 rounded-xl text-xs sm:text-sm font-bold uppercase tracking-wider text-[#032B43] bg-white hover:bg-blue-50 shadow-xl hover:shadow-2xl transition-all duration-200 flex items-center gap-2 transform hover:scale-105 cursor-pointer"
             >
-              <Compass className="w-4 h-4 text-amber-600" />
-              <span>{t.exploreKarnataka}</span>
+              <Compass className="w-4 h-4 text-[#0B5E8E]" />
+              <span>{language === "kn" ? "೩೧ ಜಿಲ್ಲೆಗಳನ್ನು ಅನ್ವೇಷಿಸಿ" : "EXPLORE 31 DISTRICTS"}</span>
             </button>
 
             <button
@@ -171,10 +167,10 @@ export const HomePage: React.FC = () => {
                 setActiveView("planner");
                 window.scrollTo({ top: 0, behavior: "smooth" });
               }}
-              className="px-6 py-3.5 rounded-xl text-xs sm:text-sm font-bold text-white bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-700 hover:to-amber-800 shadow-lg hover:shadow-xl transition-all flex items-center gap-2"
+              className="px-7 py-3.5 rounded-xl text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-950 bg-gradient-to-r from-[#D99A24] via-amber-400 to-[#D99A24] hover:from-amber-300 hover:to-[#D99A24] shadow-xl hover:shadow-2xl transition-all duration-200 flex items-center gap-2 transform hover:scale-105 cursor-pointer"
             >
-              <Sparkles className="w-4 h-4 text-amber-300" />
-              <span>{t.planMyTrip}</span>
+              <Sparkles className="w-4 h-4 text-slate-950 fill-current" />
+              <span>{language === "kn" ? "ಪ್ರವಾಸ ಯೋಜಿಸಿ" : "PLAN MY TRIP"}</span>
             </button>
           </div>
 
@@ -207,44 +203,130 @@ export const HomePage: React.FC = () => {
         <YaatriAIAssistant isEmbedded={true} />
       </section>
 
-      {/* 4. EXPLORE KARNATAKA INTRO */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="bg-gradient-to-br from-amber-900/5 via-amber-600/5 to-transparent rounded-3xl p-8 sm:p-12 border border-amber-900/10 flex flex-col md:flex-row items-center justify-between gap-8">
-          <div className="space-y-3 max-w-2xl">
-            <span className="text-xs font-bold uppercase tracking-wider text-amber-700 flex items-center gap-1.5">
-              <Award className="w-4 h-4" />
-              <span>Unified Tourism Architecture</span>
-            </span>
-            <h2 className="font-serif text-2xl sm:text-4xl font-bold text-slate-900 leading-tight">
-              {language === "kn" ? "ಒಂದು ರಾಜ್ಯ. ಹಲವು ಜಗತ್ತುಗಳು." : "One State. Many Worlds."}
-            </h2>
-            <p className="text-sm text-slate-600 leading-relaxed">
-              Karnataka is a land of vibrant contrasts. Ancient stone temples of Badami and Hampi whisper tales of empires past, misty green peaks of Coorg and Chikkamagaluru cradle aromatic coffee, while pristine Arabian Sea shores at Gokarna and Udupi offer coastal serenity. Yaatri Niwaas brings all 31 districts into one cohesive journey.
-            </p>
+      {/* 4. EXPLORE KARNATAKA SECTION */}
+      <section id="explore-karnataka-section" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 scroll-mt-24">
+        <div className="text-center space-y-3 max-w-3xl mx-auto">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-blue-50 border border-blue-200 text-[#073B5C] text-xs font-bold uppercase tracking-widest">
+            <Compass className="w-3.5 h-3.5 text-[#0B5E8E]" />
+            <span>Discover Karnataka</span>
           </div>
+          <h2 className="font-serif text-3xl sm:text-5xl font-extrabold text-[#032B43] tracking-tight uppercase">
+            {language === "kn" ? "ಕರ್ನಾಟಕವನ್ನು ಅನ್ವೇಷಿಸಿ" : "EXPLORE KARNATAKA"}
+          </h2>
+          <p className="text-sm sm:text-base text-slate-600 leading-relaxed max-w-2xl mx-auto">
+            {language === "kn"
+              ? "ಪ್ರಾಚೀನ ಪರಂಪರೆಯಿಂದ ಮಂಜುಗವಿದ ಪರ್ವತಗಳು ಮತ್ತು ಕರಾವಳಿಯ ರಮಣೀಯ ತಾಣಗಳವರೆಗೆ, ಕರ್ನಾಟಕದ ಪ್ರತಿಯೊಂದು ಭಾಗವನ್ನು ಅನನ್ಯವಾಗಿಸುವ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಕಂಡುಕೊಳ್ಳಿ."
+              : "From ancient heritage to misty mountains and coastal escapes, discover what makes every part of Karnataka unique."}
+          </p>
+        </div>
 
-          <div className="grid grid-cols-2 gap-3 shrink-0 w-full md:w-auto">
-            <div className="bg-white p-4 rounded-2xl border border-slate-200 text-center shadow-xs">
-              <Landmark className="w-6 h-6 text-amber-600 mx-auto mb-1" />
-              <span className="font-bold text-sm text-slate-800 block">UNESCO Heritage</span>
-              <span className="text-[11px] text-slate-500">Hampi & Pattadakal</span>
-            </div>
-            <div className="bg-white p-4 rounded-2xl border border-slate-200 text-center shadow-xs">
-              <Waves className="w-6 h-6 text-sky-600 mx-auto mb-1" />
-              <span className="font-bold text-sm text-slate-800 block">320 km Coastline</span>
-              <span className="text-[11px] text-slate-500">Arabian Sea Beaches</span>
-            </div>
-            <div className="bg-white p-4 rounded-2xl border border-slate-200 text-center shadow-xs">
-              <Trees className="w-6 h-6 text-emerald-600 mx-auto mb-1" />
-              <span className="font-bold text-sm text-slate-800 block">Western Ghats</span>
-              <span className="text-[11px] text-slate-500">Global Biodiversity</span>
-            </div>
-            <div className="bg-white p-4 rounded-2xl border border-slate-200 text-center shadow-xs">
-              <Hotel className="w-6 h-6 text-amber-700 mx-auto mb-1" />
-              <span className="font-bold text-sm text-slate-800 block">Yaatri Niwaas</span>
-              <span className="text-[11px] text-slate-500">31 District Stays</span>
-            </div>
-          </div>
+        {/* 8 Category Cards Grid */}
+        <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-3 sm:gap-4">
+          {[
+            {
+              id: "Heritage",
+              name: "HERITAGE",
+              kannada: "ಪರಂಪರೆ",
+              icon: Landmark,
+              img: "/images/destinations/pattadakal-monuments.jpg",
+              desc: "UNESCO sites, rock caves & imperial empires."
+            },
+            {
+              id: "Nature",
+              name: "NATURE",
+              kannada: "ಪ್ರಕೃತಿ",
+              icon: Trees,
+              img: "/images/destinations/jog-falls.jpg",
+              desc: "Western Ghats, shola forests & roaring waterfalls."
+            },
+            {
+              id: "Beaches",
+              name: "BEACHES",
+              kannada: "ಕರಾವಳಿ",
+              icon: Waves,
+              img: "/images/destinations/gokarna-om-beach.jpg",
+              desc: "320 km Arabian Sea coast, Om Beach & St. Mary."
+            },
+            {
+              id: "Adventure",
+              name: "ADVENTURE",
+              kannada: "ಸಾಹಸ",
+              icon: Flame,
+              img: "/images/destinations/dandeli-kali-river.jpg",
+              desc: "Kali whitewater rafting, trekking & rock climbs."
+            },
+            {
+              id: "Culture",
+              name: "CULTURE",
+              kannada: "ಸಂಸ್ಕೃತಿ",
+              icon: Award,
+              img: "/images/destinations/belur-chennakeshava.jpg",
+              desc: "Yakshagana, Mysore Dasara & GI Ilkal weaves."
+            },
+            {
+              id: "Food",
+              name: "FOOD",
+              kannada: "ಆಹಾರ",
+              icon: UtensilsCrossed,
+              img: "/images/districts/davanagere.jpg",
+              desc: "Benne Dosa, Dharwad Peda, Ghee Roast & Jolada Rotti."
+            },
+            {
+              id: "Wildlife",
+              name: "WILDLIFE",
+              kannada: "ವನ್ಯಜೀವಿ",
+              icon: Compass,
+              img: "/images/destinations/bandipur-tiger-reserve.jpg",
+              desc: "Bandipur tigers, Kabini elephants & river birds."
+            },
+            {
+              id: "Spiritual",
+              name: "PILGRIMAGE",
+              kannada: "ಧಾರ್ಮಿಕ",
+              icon: Sparkles,
+              img: "/images/destinations/murudeshwara-temple.jpg",
+              desc: "Sacred jyotirlingas, coastal kshetras & mutts."
+            }
+          ].map((cat) => {
+            const IconComponent = cat.icon;
+            const isSelected = selectedExperience === cat.id;
+            return (
+              <div
+                key={cat.id}
+                onClick={() => {
+                  setSelectedExperience(cat.id);
+                  const el = document.getElementById("popular-experiences-section");
+                  el?.scrollIntoView({ behavior: "smooth" });
+                }}
+                className={`group relative h-48 sm:h-56 rounded-2xl overflow-hidden cursor-pointer shadow-md transition-all duration-300 transform hover:-translate-y-1 hover:shadow-xl border ${
+                  isSelected ? "ring-3 ring-[#D99A24] border-transparent" : "border-slate-200"
+                }`}
+              >
+                <img
+                  src={cat.img}
+                  alt={cat.name}
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#032B43] via-[#032B43]/50 to-transparent"></div>
+                
+                <div className="absolute top-2.5 right-2.5 w-7 h-7 rounded-lg bg-white/20 backdrop-blur-md flex items-center justify-center text-[#D99A24] border border-white/30">
+                  <IconComponent className="w-4 h-4" />
+                </div>
+
+                <div className="absolute bottom-2.5 left-2.5 right-2.5 text-white">
+                  <span className="text-[9px] text-[#D99A24] font-bold block uppercase tracking-wider">
+                    {language === "kn" ? cat.kannada : "EXPLORE"}
+                  </span>
+                  <h4 className="font-serif font-black text-xs sm:text-sm tracking-wide text-white leading-tight drop-shadow-sm">
+                    {cat.name}
+                  </h4>
+                  <p className="text-[10px] text-blue-100 line-clamp-2 mt-0.5 leading-tight opacity-90">
+                    {cat.desc}
+                  </p>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </section>
 
@@ -326,7 +408,7 @@ export const HomePage: React.FC = () => {
       </section>
 
       {/* 6. POPULAR EXPERIENCES */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
+      <section id="popular-experiences-section" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10 scroll-mt-24">
         <div className="text-center space-y-2 max-w-2xl mx-auto">
           <span className="text-xs font-bold uppercase tracking-wider text-amber-700">
             {language === "kn" ? "ಅನುಭವಗಳ ವರ್ಗೀಕರಣ" : "Curated Tourism Themes"}

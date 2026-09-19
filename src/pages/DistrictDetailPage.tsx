@@ -8,6 +8,7 @@ import { getBusStandByDistrict } from "../data/busStandsData";
 import { PackageCard } from "../components/PackageCard";
 import { DestinationCard } from "../components/DestinationCard";
 import { StayBookingModal } from "../components/StayBookingModal";
+import { DistrictCard } from "../components/DistrictCard";
 import { 
   MapPin, 
   Calendar, 
@@ -55,13 +56,45 @@ export const DistrictDetailPage: React.FC = () => {
   const spiritualDests = destinations.filter(d => d.category === "Spiritual");
   const adventureDests = destinations.filter(d => d.category === "Adventure");
 
+  const otherDistricts = [
+    ...DISTRICTS_DATA.filter(d => d.region === district.region && d.id !== district.id),
+    ...DISTRICTS_DATA.filter(d => d.region !== district.region && d.id !== district.id)
+  ].slice(0, 4);
+
   const nearbyDistrictsList = district.nearbyDistricts
     .map(id => getDistrictById(id))
     .filter(Boolean);
 
   return (
-    <div className="pb-20 space-y-16 animate-fadeIn">
+    <div className="pb-20 space-y-12 animate-fadeIn">
       
+      {/* BREADCRUMB NAVIGATION */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
+        <nav className="flex items-center gap-2 text-xs font-semibold text-slate-500 bg-white/80 backdrop-blur-md px-4 py-2.5 rounded-2xl border border-slate-200 shadow-2xs w-fit">
+          <button
+            onClick={() => {
+              setActiveView("home");
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            }}
+            className="hover:text-[#0B5E8E] transition-colors cursor-pointer"
+          >
+            Home
+          </button>
+          <span className="text-slate-300">/</span>
+          <button
+            onClick={() => {
+              setActiveView("districts");
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            }}
+            className="hover:text-[#0B5E8E] transition-colors cursor-pointer"
+          >
+            31 Districts
+          </button>
+          <span className="text-slate-300">/</span>
+          <span className="text-[#032B43] font-bold">{district.name} ({district.kannadaName})</span>
+        </nav>
+      </div>
+
       {/* 1. DISTRICT HERO */}
       <section className="relative h-[60vh] sm:h-[70vh] flex items-end justify-start bg-slate-900 overflow-hidden">
         <img
@@ -484,6 +517,40 @@ export const DistrictDetailPage: React.FC = () => {
           </div>
         </div>
 
+      </section>
+
+      {/* 10. EXPLORE ANOTHER DISTRICT */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6 pt-10 border-t border-slate-200">
+        <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+          <div className="space-y-1">
+            <span className="text-xs font-bold uppercase tracking-wider text-[#0B5E8E] flex items-center gap-1.5">
+              <Compass className="w-4 h-4" />
+              <span>Continue Your Karnataka Journey</span>
+            </span>
+            <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#032B43]">
+              Explore Another District
+            </h2>
+            <p className="text-xs sm:text-sm text-slate-600">
+              Discover other iconic districts across Karnataka's 7 diverse regions.
+            </p>
+          </div>
+
+          <button
+            onClick={() => {
+              setActiveView("districts");
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            }}
+            className="text-xs font-bold text-[#0B5E8E] hover:text-[#073B5C] underline underline-offset-4 cursor-pointer"
+          >
+            View All 31 Districts →
+          </button>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {otherDistricts.map(d => (
+            <DistrictCard key={d.id} district={d} />
+          ))}
+        </div>
       </section>
 
       {/* Stay Booking Modal */}
