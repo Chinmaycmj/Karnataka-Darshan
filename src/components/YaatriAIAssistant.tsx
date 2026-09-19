@@ -134,11 +134,12 @@ export const YaatriAIAssistant: React.FC<{ isEmbedded?: boolean }> = ({ isEmbedd
       };
     }
 
-    // Buses / KSRTC / Transport / Transit / Seat
-    if (q.includes("bus") || q.includes("ksrtc") || q.includes("airavat") || q.includes("transport") || q.includes("seat") || q.includes("fare") || q.includes("ticket")) {
-      actions.push({ label: "Search & Book KSRTC Buses", actionType: "transport" });
+    // Buses / KSRTC / NWKRTC / Transport / Transit / Timetable / Hubballi
+    if (q.includes("bus") || q.includes("ksrtc") || q.includes("nwkrtc") || q.includes("kkrtc") || q.includes("timetable") || q.includes("schedule") || q.includes("stand") || q.includes("hubballi") || q.includes("airavat") || q.includes("transport") || q.includes("seat") || q.includes("fare") || q.includes("ticket")) {
+      actions.push({ label: "Search & Book Buses", actionType: "transport" });
+      actions.push({ label: "View Bus Stand Timetables", actionType: "transport" });
       return {
-        reply: "Yaatri Niwaas integrates directly with the official KSRTC bus network covering all 31 district terminals:\n\n• **Airavat Club Class (Multi-Axle Volvo)**: Premium luxury coaches with ergonomic reclining seats.\n• **EV Power Plus**: Zero-emission electric intercity coaches.\n• **Rajahamsa Executive**: State-wide express transit.\n\n*How to Book:* Go to the Transport page, choose your Origin & Destination, open the interactive seat map, pick your seats, and get an instant digital boarding pass!",
+        reply: "Yaatri Niwaas integrates directly with Karnataka's state transport corporations across all 31 districts:\n\n• **NWKRTC (HQ Hubballi)**: 950+ daily express departures connecting Hubballi (Hosur & Gokul Rd CBS) to Belagavi, Gokarna, Karwar, Mangaluru, Bengaluru, Bagalkote, and Vijayapura.\n• **KSRTC (South & Coastal)**: Bengaluru Majestic KBS, Mysuru Suburb CBS, and Mangaluru Bejai terminals.\n• **KKRTC (Kalyana Karnataka)**: Kalaburagi, Hospete (Hampi), Bidar, and Ballari corridors.\n\n*Features:* Check official daily bus stand departure boards with platform bay numbers, live fares, or select your seats interactively!",
         actions
       };
     }
