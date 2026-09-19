@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from "react";
+import React, { useState, useMemo, useEffect } from "react";
 import { useApp } from "../context/AppContext";
 import { BUS_ROUTES_DATA } from "../data/transportRoutes";
 import { BUS_STANDS_DIRECTORY, BusStandInfo, getBusStandByCity } from "../data/busStandsData";
@@ -29,7 +29,7 @@ import {
 } from "lucide-react";
 
 export const TransportPage: React.FC = () => {
-  const { language } = useApp();
+  const { language, transportFilter, setTransportFilter } = useApp();
   const [activeTab, setActiveTab] = useState<"booking" | "timetables">("booking");
   const [fromCity, setFromCity] = useState<string>("All");
   const [toCity, setToCity] = useState<string>("All");
@@ -39,7 +39,23 @@ export const TransportPage: React.FC = () => {
 
   // Timetable board state
   const [selectedStandId, setSelectedStandId] = useState<string>("hubballi-cbs");
+  const [selectedStandRegion, setSelectedStandRegion] = useState<string>("All");
+  const [standSearch, setStandSearch] = useState<string>("");
   const [timetableSearch, setTimetableSearch] = useState<string>("");
+
+  // Handle cross-page navigation preselection
+  useEffect(() => {
+    if (transportFilter) {
+      if (transportFilter.tab) setActiveTab(transportFilter.tab);
+      if (transportFilter.fromCity) setFromCity(transportFilter.fromCity);
+      if (transportFilter.toCity) setToCity(transportFilter.toCity);
+      if (transportFilter.standId) {
+        setSelectedStandId(transportFilter.standId);
+        setActiveTab("timetables");
+      }
+      setTransportFilter(null);
+    }
+  }, [transportFilter, setTransportFilter]);
 
   // Extract unique origins and destinations
   const fromCities = useMemo(() => {
@@ -97,6 +113,21 @@ export const TransportPage: React.FC = () => {
     if (fromCity === "All") return [];
     return BUS_ROUTES_DATA.filter(r => r.fromCity === fromCity);
   }, [fromCity]);
+
+  // Filtered bus stands by region & search
+  const filteredBusStands = useMemo(() => {
+    return BUS_STANDS_DIRECTORY.filter(s => {
+      if (selectedStandRegion !== "All" && s.region !== selectedStandRegion) return false;
+      if (standSearch.trim()) {
+        const q = standSearch.toLowerCase();
+        return s.city.toLowerCase().includes(q) || 
+               s.name.toLowerCase().includes(q) || 
+               s.districtName.toLowerCase().includes(q) ||
+               s.division.toLowerCase().includes(q);
+      }
+      return true;
+    });
+  }, [selectedStandRegion, standSearch]);
 
   // Current bus stand for timetable board
   const activeBusStand = useMemo(() => {
@@ -169,7 +200,7 @@ export const TransportPage: React.FC = () => {
           {/* Key Metrics */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-8 pt-6 border-t border-amber-800/40 text-left">
             <div className="bg-black/25 rounded-2xl p-3 backdrop-blur-sm border border-white/10">
-              <div className="text-2xl sm:text-3xl font-bold text-amber-400 font-price">200+</div>
+              <div className="text-2xl sm:text-3xl font-bold text-amber-400 font-price">{BUS_ROUTES_DATA.length}+</div>
               <div className="text-xs text-amber-200/80">Direct Inter-District Services</div>
             </div>
             <div className="bg-black/25 rounded-2xl p-3 backdrop-blur-sm border border-white/10">
@@ -574,27 +605,65 @@ export const TransportPage: React.FC = () => {
       {activeTab === "timetables" && (
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-6 space-y-8">
           
-          {/* Stand Selector Tabs */}
-          <div className="bg-white rounded-3xl shadow-xl border border-slate-200/80 p-5 sm:p-7">
-            <span className="text-xs font-bold text-slate-500 uppercase tracking-wider block mb-3">
-              Select City Bus Terminal / ಬಸ್ ನಿಲ್ದಾಣ ಆಯ್ಕೆಮಾಡಿ:
-            </span>
-            <div className="flex flex-wrap items-center gap-2.5">
-              {BUS_STANDS_DIRECTORY.map((stand) => {
+          {/* Stand Selector Tabs with Search & Region Filter */}
+          <div className="bg-white rounded-3xl shadow-xl border border-slate-200/80 p-5 sm:p-7 space-y-4">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+              <div>
+                <span className="text-xs font-bold text-slate-500 uppercase tracking-wider block">
+                  Select District Bus Stand / 31 ಜಿಲ್ಲಾ ಬಸ್ ನಿಲ್ದಾಣಗಳು:
+                </span>
+                <p className="text-xs text-slate-500 mt-0.5">
+                  Official KSRTC, NWKRTC, and KKRTC departure boards and platform allocations.
+                </p>
+              </div>
+
+              {/* Quick Search */}
+              <div className="relative w-full sm:w-64">
+                <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
+                <input
+                  type="text"
+                  value={standSearch}
+                  onChange={(e) => setStandSearch(e.target.value)}
+                  placeholder="Search district (e.g. Koppal, Mandya)..."
+                  className="w-full pl-9 pr-3 py-1.5 rounded-xl border border-slate-200 text-xs focus:ring-2 focus:ring-amber-500 outline-none"
+                />
+              </div>
+            </div>
+
+            {/* Region Filter Pills */}
+            <div className="flex flex-wrap items-center gap-1.5 border-b border-slate-100 pb-3">
+              {["All", "Kalyana Karnataka", "North Karnataka", "South Karnataka", "Malnad", "Coastal Karnataka"].map(reg => (
+                <button
+                  key={reg}
+                  onClick={() => setSelectedStandRegion(reg)}
+                  className={`px-3 py-1 rounded-full text-xs font-semibold transition-all cursor-pointer ${
+                    selectedStandRegion === reg
+                      ? "bg-slate-900 text-white shadow-sm"
+                      : "bg-slate-100 hover:bg-slate-200 text-slate-600"
+                  }`}
+                >
+                  {reg === "All" ? "All 31 Districts" : reg}
+                </button>
+              ))}
+            </div>
+
+            {/* Bus Stand Buttons Grid */}
+            <div className="flex flex-wrap items-center gap-2 max-h-56 overflow-y-auto pr-1 py-1">
+              {filteredBusStands.map((stand) => {
                 const isSelected = stand.id === selectedStandId;
                 return (
                   <button
                     key={stand.id}
                     onClick={() => setSelectedStandId(stand.id)}
-                    className={`px-4 py-2.5 rounded-2xl text-xs sm:text-sm font-bold transition-all flex items-center gap-2 cursor-pointer ${
+                    className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-2 cursor-pointer ${
                       isSelected
                         ? "bg-amber-600 text-white shadow-md shadow-amber-600/30 scale-105"
                         : "bg-slate-100 hover:bg-slate-200 text-slate-700"
                     }`}
                   >
-                    <Building2 className="w-4 h-4" />
+                    <Building2 className="w-3.5 h-3.5" />
                     <span>{stand.city}</span>
-                    <span className={`text-[10px] px-2 py-0.5 rounded-full ${
+                    <span className={`text-[10px] px-1.5 py-0.5 rounded-full ${
                       isSelected ? "bg-amber-800 text-white" : "bg-slate-200 text-slate-600"
                     }`}>
                       {stand.division}

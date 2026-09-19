@@ -4122,6 +4122,3990 @@ const RAW_ROUTES_DEF = [
       "KSRTC Live Vehicle Tracking"
     ],
     "_seed": 202
+  },
+  {
+    "id": "RT-203",
+    "operator": "KKRTC Rajahamsa",
+    "serviceType": "Rajahamsa Executive",
+    "fromCity": "Koppal",
+    "toCity": "Hubballi",
+    "departureTime": "07:15 AM",
+    "arrivalTime": "09:30 AM",
+    "duration": "2h 15m",
+    "price": 210,
+    "seatsAvailable": 26,
+    "amenities": [
+      "2+2 Pushback Seats",
+      "Reading Lamp",
+      "Air Suspension",
+      "Mobile Charging Points",
+      "Luggage Carrier",
+      "Emergency Exit"
+    ],
+    "_seed": 500
+  },
+  {
+    "id": "RT-204",
+    "operator": "KKRTC Rajahamsa",
+    "serviceType": "Rajahamsa Executive",
+    "fromCity": "Hubballi",
+    "toCity": "Koppal",
+    "departureTime": "08:30 AM",
+    "arrivalTime": "09:30 AM",
+    "duration": "2h 15m",
+    "price": 210,
+    "seatsAvailable": 26,
+    "amenities": [
+      "2+2 Pushback Seats",
+      "Reading Lamp",
+      "Air Suspension",
+      "Mobile Charging Points",
+      "Luggage Carrier",
+      "Emergency Exit"
+    ],
+    "_seed": 501
+  },
+  {
+    "id": "RT-205",
+    "operator": "KKRTC Kalyana Sarige",
+    "serviceType": "Express",
+    "fromCity": "Koppal",
+    "toCity": "Hubballi",
+    "departureTime": "02:00 PM",
+    "arrivalTime": "04:15 PM",
+    "duration": "2h 15m",
+    "price": 175,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 502
+  },
+  {
+    "id": "RT-206",
+    "operator": "KKRTC Kalyana Sarige",
+    "serviceType": "Express",
+    "fromCity": "Hubballi",
+    "toCity": "Koppal",
+    "departureTime": "02:30 PM",
+    "arrivalTime": "04:15 PM",
+    "duration": "2h 15m",
+    "price": 175,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 503
+  },
+  {
+    "id": "RT-207",
+    "operator": "NWKRTC Rajahamsa",
+    "serviceType": "Rajahamsa Executive",
+    "fromCity": "Koppal",
+    "toCity": "Hubballi",
+    "departureTime": "06:30 PM",
+    "arrivalTime": "08:45 PM",
+    "duration": "2h 15m",
+    "price": 210,
+    "seatsAvailable": 26,
+    "amenities": [
+      "2+2 Pushback Seats",
+      "Reading Lamp",
+      "Air Suspension",
+      "Mobile Charging Points",
+      "Luggage Carrier",
+      "Emergency Exit"
+    ],
+    "_seed": 504
+  },
+  {
+    "id": "RT-208",
+    "operator": "NWKRTC Rajahamsa",
+    "serviceType": "Rajahamsa Executive",
+    "fromCity": "Hubballi",
+    "toCity": "Koppal",
+    "departureTime": "02:30 PM",
+    "arrivalTime": "08:45 PM",
+    "duration": "2h 15m",
+    "price": 210,
+    "seatsAvailable": 26,
+    "amenities": [
+      "2+2 Pushback Seats",
+      "Reading Lamp",
+      "Air Suspension",
+      "Mobile Charging Points",
+      "Luggage Carrier",
+      "Emergency Exit"
+    ],
+    "_seed": 505
+  },
+  {
+    "id": "RT-209",
+    "operator": "KKRTC Non-AC Sleeper",
+    "serviceType": "Non-AC Sleeper",
+    "fromCity": "Koppal",
+    "toCity": "Bengaluru",
+    "departureTime": "09:30 PM",
+    "arrivalTime": "05:30 AM",
+    "duration": "8h 00m",
+    "price": 690,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Spacious Individual Sleep Berths",
+      "Charging Point per Berth",
+      "Personal Reading Lights",
+      "Clean Linen & Pillows",
+      "Luggage Underberth Storage"
+    ],
+    "_seed": 506
+  },
+  {
+    "id": "RT-210",
+    "operator": "KKRTC Non-AC Sleeper",
+    "serviceType": "Non-AC Sleeper",
+    "fromCity": "Bengaluru",
+    "toCity": "Koppal",
+    "departureTime": "10:00 PM",
+    "arrivalTime": "05:30 AM",
+    "duration": "8h 00m",
+    "price": 690,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Spacious Individual Sleep Berths",
+      "Charging Point per Berth",
+      "Personal Reading Lights",
+      "Clean Linen & Pillows",
+      "Luggage Underberth Storage"
+    ],
+    "_seed": 507
+  },
+  {
+    "id": "RT-211",
+    "operator": "KKRTC Airavat",
+    "serviceType": "Airavat Club Class",
+    "fromCity": "Koppal",
+    "toCity": "Bengaluru",
+    "departureTime": "10:15 PM",
+    "arrivalTime": "06:00 AM",
+    "duration": "7h 45m",
+    "price": 840,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Air Suspension",
+      "Emergency Exit",
+      "Live GPS Tracking",
+      "Charging Ports",
+      "Blankets & Water Bottle",
+      "Reclining Ergonomic Seats"
+    ],
+    "_seed": 508
+  },
+  {
+    "id": "RT-212",
+    "operator": "KKRTC Airavat",
+    "serviceType": "Airavat Club Class",
+    "fromCity": "Bengaluru",
+    "toCity": "Koppal",
+    "departureTime": "10:00 PM",
+    "arrivalTime": "06:00 AM",
+    "duration": "7h 45m",
+    "price": 840,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Air Suspension",
+      "Emergency Exit",
+      "Live GPS Tracking",
+      "Charging Ports",
+      "Blankets & Water Bottle",
+      "Reclining Ergonomic Seats"
+    ],
+    "_seed": 509
+  },
+  {
+    "id": "RT-213",
+    "operator": "KKRTC Rajahamsa",
+    "serviceType": "Rajahamsa Executive",
+    "fromCity": "Koppal",
+    "toCity": "Bengaluru",
+    "departureTime": "08:00 AM",
+    "arrivalTime": "04:00 PM",
+    "duration": "8h 00m",
+    "price": 620,
+    "seatsAvailable": 26,
+    "amenities": [
+      "2+2 Pushback Seats",
+      "Reading Lamp",
+      "Air Suspension",
+      "Mobile Charging Points",
+      "Luggage Carrier",
+      "Emergency Exit"
+    ],
+    "_seed": 510
+  },
+  {
+    "id": "RT-214",
+    "operator": "KKRTC Rajahamsa",
+    "serviceType": "Rajahamsa Executive",
+    "fromCity": "Bengaluru",
+    "toCity": "Koppal",
+    "departureTime": "08:30 AM",
+    "arrivalTime": "04:00 PM",
+    "duration": "8h 00m",
+    "price": 620,
+    "seatsAvailable": 26,
+    "amenities": [
+      "2+2 Pushback Seats",
+      "Reading Lamp",
+      "Air Suspension",
+      "Mobile Charging Points",
+      "Luggage Carrier",
+      "Emergency Exit"
+    ],
+    "_seed": 511
+  },
+  {
+    "id": "RT-215",
+    "operator": "KKRTC Kalyana Ratha",
+    "serviceType": "Express",
+    "fromCity": "Koppal",
+    "toCity": "Vijayanagara (Hosapete)",
+    "departureTime": "06:45 AM",
+    "arrivalTime": "07:45 AM",
+    "duration": "1h 00m",
+    "price": 85,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 512
+  },
+  {
+    "id": "RT-216",
+    "operator": "KKRTC Kalyana Ratha",
+    "serviceType": "Express",
+    "fromCity": "Vijayanagara (Hosapete)",
+    "toCity": "Koppal",
+    "departureTime": "08:30 AM",
+    "arrivalTime": "07:45 AM",
+    "duration": "1h 00m",
+    "price": 85,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 513
+  },
+  {
+    "id": "RT-217",
+    "operator": "KKRTC Kalyana Ratha",
+    "serviceType": "Express",
+    "fromCity": "Koppal",
+    "toCity": "Vijayanagara (Hosapete)",
+    "departureTime": "11:30 AM",
+    "arrivalTime": "12:30 PM",
+    "duration": "1h 00m",
+    "price": 85,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 514
+  },
+  {
+    "id": "RT-218",
+    "operator": "KKRTC Kalyana Ratha",
+    "serviceType": "Express",
+    "fromCity": "Vijayanagara (Hosapete)",
+    "toCity": "Koppal",
+    "departureTime": "08:30 AM",
+    "arrivalTime": "12:30 PM",
+    "duration": "1h 00m",
+    "price": 85,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 515
+  },
+  {
+    "id": "RT-219",
+    "operator": "KKRTC Kalyana Ratha",
+    "serviceType": "Express",
+    "fromCity": "Koppal",
+    "toCity": "Vijayanagara (Hosapete)",
+    "departureTime": "04:15 PM",
+    "arrivalTime": "05:15 PM",
+    "duration": "1h 00m",
+    "price": 85,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 516
+  },
+  {
+    "id": "RT-220",
+    "operator": "KKRTC Kalyana Ratha",
+    "serviceType": "Express",
+    "fromCity": "Vijayanagara (Hosapete)",
+    "toCity": "Koppal",
+    "departureTime": "02:30 PM",
+    "arrivalTime": "05:15 PM",
+    "duration": "1h 00m",
+    "price": 85,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 517
+  },
+  {
+    "id": "RT-221",
+    "operator": "KKRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Koppal",
+    "toCity": "Bagalkote (Badami)",
+    "departureTime": "08:45 AM",
+    "arrivalTime": "11:30 AM",
+    "duration": "2h 45m",
+    "price": 185,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 518
+  },
+  {
+    "id": "RT-222",
+    "operator": "KKRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Bagalkote (Badami)",
+    "toCity": "Koppal",
+    "departureTime": "08:30 AM",
+    "arrivalTime": "11:30 AM",
+    "duration": "2h 45m",
+    "price": 185,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 519
+  },
+  {
+    "id": "RT-223",
+    "operator": "NWKRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Koppal",
+    "toCity": "Bagalkote (Badami)",
+    "departureTime": "03:15 PM",
+    "arrivalTime": "06:00 PM",
+    "duration": "2h 45m",
+    "price": 185,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 520
+  },
+  {
+    "id": "RT-224",
+    "operator": "NWKRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Bagalkote (Badami)",
+    "toCity": "Koppal",
+    "departureTime": "02:30 PM",
+    "arrivalTime": "06:00 PM",
+    "duration": "2h 45m",
+    "price": 185,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 521
+  },
+  {
+    "id": "RT-225",
+    "operator": "KKRTC Kalyana Sarige",
+    "serviceType": "Express",
+    "fromCity": "Koppal",
+    "toCity": "Raichur",
+    "departureTime": "08:00 AM",
+    "arrivalTime": "11:30 AM",
+    "duration": "3h 30m",
+    "price": 230,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 522
+  },
+  {
+    "id": "RT-226",
+    "operator": "KKRTC Kalyana Sarige",
+    "serviceType": "Express",
+    "fromCity": "Raichur",
+    "toCity": "Koppal",
+    "departureTime": "08:30 AM",
+    "arrivalTime": "11:30 AM",
+    "duration": "3h 30m",
+    "price": 230,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 523
+  },
+  {
+    "id": "RT-227",
+    "operator": "KKRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Koppal",
+    "toCity": "Raichur",
+    "departureTime": "02:30 PM",
+    "arrivalTime": "06:00 PM",
+    "duration": "3h 30m",
+    "price": 230,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 524
+  },
+  {
+    "id": "RT-228",
+    "operator": "KKRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Raichur",
+    "toCity": "Koppal",
+    "departureTime": "02:30 PM",
+    "arrivalTime": "06:00 PM",
+    "duration": "3h 30m",
+    "price": 230,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 525
+  },
+  {
+    "id": "RT-229",
+    "operator": "KKRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Koppal",
+    "toCity": "Ballari",
+    "departureTime": "07:45 AM",
+    "arrivalTime": "10:15 AM",
+    "duration": "2h 30m",
+    "price": 140,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 526
+  },
+  {
+    "id": "RT-230",
+    "operator": "KKRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Ballari",
+    "toCity": "Koppal",
+    "departureTime": "08:30 AM",
+    "arrivalTime": "10:15 AM",
+    "duration": "2h 30m",
+    "price": 140,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 527
+  },
+  {
+    "id": "RT-231",
+    "operator": "KKRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Koppal",
+    "toCity": "Ballari",
+    "departureTime": "03:00 PM",
+    "arrivalTime": "05:30 PM",
+    "duration": "2h 30m",
+    "price": 140,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 528
+  },
+  {
+    "id": "RT-232",
+    "operator": "KKRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Ballari",
+    "toCity": "Koppal",
+    "departureTime": "02:30 PM",
+    "arrivalTime": "05:30 PM",
+    "duration": "2h 30m",
+    "price": 140,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 529
+  },
+  {
+    "id": "RT-233",
+    "operator": "KKRTC Rajahamsa",
+    "serviceType": "Rajahamsa Executive",
+    "fromCity": "Koppal",
+    "toCity": "Kalaburagi",
+    "departureTime": "01:30 PM",
+    "arrivalTime": "06:30 PM",
+    "duration": "5h 00m",
+    "price": 360,
+    "seatsAvailable": 26,
+    "amenities": [
+      "2+2 Pushback Seats",
+      "Reading Lamp",
+      "Air Suspension",
+      "Mobile Charging Points",
+      "Luggage Carrier",
+      "Emergency Exit"
+    ],
+    "_seed": 530
+  },
+  {
+    "id": "RT-234",
+    "operator": "KKRTC Rajahamsa",
+    "serviceType": "Rajahamsa Executive",
+    "fromCity": "Kalaburagi",
+    "toCity": "Koppal",
+    "departureTime": "02:30 PM",
+    "arrivalTime": "06:30 PM",
+    "duration": "5h 00m",
+    "price": 360,
+    "seatsAvailable": 26,
+    "amenities": [
+      "2+2 Pushback Seats",
+      "Reading Lamp",
+      "Air Suspension",
+      "Mobile Charging Points",
+      "Luggage Carrier",
+      "Emergency Exit"
+    ],
+    "_seed": 531
+  },
+  {
+    "id": "RT-235",
+    "operator": "NWKRTC Rajahamsa",
+    "serviceType": "Rajahamsa Executive",
+    "fromCity": "Koppal",
+    "toCity": "Belagavi",
+    "departureTime": "08:15 AM",
+    "arrivalTime": "01:00 PM",
+    "duration": "4h 45m",
+    "price": 310,
+    "seatsAvailable": 26,
+    "amenities": [
+      "2+2 Pushback Seats",
+      "Reading Lamp",
+      "Air Suspension",
+      "Mobile Charging Points",
+      "Luggage Carrier",
+      "Emergency Exit"
+    ],
+    "_seed": 532
+  },
+  {
+    "id": "RT-236",
+    "operator": "NWKRTC Rajahamsa",
+    "serviceType": "Rajahamsa Executive",
+    "fromCity": "Belagavi",
+    "toCity": "Koppal",
+    "departureTime": "08:30 AM",
+    "arrivalTime": "01:00 PM",
+    "duration": "4h 45m",
+    "price": 310,
+    "seatsAvailable": 26,
+    "amenities": [
+      "2+2 Pushback Seats",
+      "Reading Lamp",
+      "Air Suspension",
+      "Mobile Charging Points",
+      "Luggage Carrier",
+      "Emergency Exit"
+    ],
+    "_seed": 533
+  },
+  {
+    "id": "RT-237",
+    "operator": "NWKRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Koppal",
+    "toCity": "Gadag",
+    "departureTime": "07:30 AM",
+    "arrivalTime": "08:45 AM",
+    "duration": "1h 15m",
+    "price": 95,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 534
+  },
+  {
+    "id": "RT-238",
+    "operator": "NWKRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Gadag",
+    "toCity": "Koppal",
+    "departureTime": "08:30 AM",
+    "arrivalTime": "08:45 AM",
+    "duration": "1h 15m",
+    "price": 95,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 535
+  },
+  {
+    "id": "RT-239",
+    "operator": "KKRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Koppal",
+    "toCity": "Davanagere",
+    "departureTime": "09:00 AM",
+    "arrivalTime": "12:15 PM",
+    "duration": "3h 15m",
+    "price": 210,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 536
+  },
+  {
+    "id": "RT-240",
+    "operator": "KKRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Davanagere",
+    "toCity": "Koppal",
+    "departureTime": "08:30 AM",
+    "arrivalTime": "12:15 PM",
+    "duration": "3h 15m",
+    "price": 210,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 537
+  },
+  {
+    "id": "RT-241",
+    "operator": "KSRTC Non-Stop",
+    "serviceType": "Express",
+    "fromCity": "Tumakuru",
+    "toCity": "Bengaluru",
+    "departureTime": "06:00 AM",
+    "arrivalTime": "07:20 AM",
+    "duration": "1h 20m",
+    "price": 115,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 538
+  },
+  {
+    "id": "RT-242",
+    "operator": "KSRTC Non-Stop",
+    "serviceType": "Express",
+    "fromCity": "Bengaluru",
+    "toCity": "Tumakuru",
+    "departureTime": "03:00 PM",
+    "arrivalTime": "07:20 AM",
+    "duration": "1h 20m",
+    "price": 115,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 539
+  },
+  {
+    "id": "RT-243",
+    "operator": "KSRTC Non-Stop",
+    "serviceType": "Express",
+    "fromCity": "Tumakuru",
+    "toCity": "Bengaluru",
+    "departureTime": "07:00 AM",
+    "arrivalTime": "08:20 AM",
+    "duration": "1h 20m",
+    "price": 115,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 540
+  },
+  {
+    "id": "RT-244",
+    "operator": "KSRTC Non-Stop",
+    "serviceType": "Express",
+    "fromCity": "Bengaluru",
+    "toCity": "Tumakuru",
+    "departureTime": "03:00 PM",
+    "arrivalTime": "08:20 AM",
+    "duration": "1h 20m",
+    "price": 115,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 541
+  },
+  {
+    "id": "RT-245",
+    "operator": "KSRTC Non-Stop",
+    "serviceType": "Express",
+    "fromCity": "Tumakuru",
+    "toCity": "Bengaluru",
+    "departureTime": "05:00 PM",
+    "arrivalTime": "06:20 PM",
+    "duration": "1h 20m",
+    "price": 115,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 542
+  },
+  {
+    "id": "RT-246",
+    "operator": "KSRTC Non-Stop",
+    "serviceType": "Express",
+    "fromCity": "Bengaluru",
+    "toCity": "Tumakuru",
+    "departureTime": "03:00 PM",
+    "arrivalTime": "06:20 PM",
+    "duration": "1h 20m",
+    "price": 115,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 543
+  },
+  {
+    "id": "RT-247",
+    "operator": "NWKRTC Airavat",
+    "serviceType": "Airavat Club Class",
+    "fromCity": "Tumakuru",
+    "toCity": "Hubballi",
+    "departureTime": "08:00 AM",
+    "arrivalTime": "02:30 PM",
+    "duration": "6h 30m",
+    "price": 740,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Air Suspension",
+      "Emergency Exit",
+      "Live GPS Tracking",
+      "Charging Ports",
+      "Blankets & Water Bottle",
+      "Reclining Ergonomic Seats"
+    ],
+    "_seed": 544
+  },
+  {
+    "id": "RT-248",
+    "operator": "NWKRTC Airavat",
+    "serviceType": "Airavat Club Class",
+    "fromCity": "Hubballi",
+    "toCity": "Tumakuru",
+    "departureTime": "03:00 PM",
+    "arrivalTime": "02:30 PM",
+    "duration": "6h 30m",
+    "price": 740,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Air Suspension",
+      "Emergency Exit",
+      "Live GPS Tracking",
+      "Charging Ports",
+      "Blankets & Water Bottle",
+      "Reclining Ergonomic Seats"
+    ],
+    "_seed": 545
+  },
+  {
+    "id": "RT-249",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Tumakuru",
+    "toCity": "Chitradurga",
+    "departureTime": "07:30 AM",
+    "arrivalTime": "09:30 AM",
+    "duration": "2h 00m",
+    "price": 160,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 546
+  },
+  {
+    "id": "RT-250",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Chitradurga",
+    "toCity": "Tumakuru",
+    "departureTime": "03:00 PM",
+    "arrivalTime": "09:30 AM",
+    "duration": "2h 00m",
+    "price": 160,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 547
+  },
+  {
+    "id": "RT-251",
+    "operator": "KSRTC Rajahamsa",
+    "serviceType": "Rajahamsa Executive",
+    "fromCity": "Tumakuru",
+    "toCity": "Shivamogga",
+    "departureTime": "07:45 AM",
+    "arrivalTime": "11:30 AM",
+    "duration": "3h 45m",
+    "price": 360,
+    "seatsAvailable": 26,
+    "amenities": [
+      "2+2 Pushback Seats",
+      "Reading Lamp",
+      "Air Suspension",
+      "Mobile Charging Points",
+      "Luggage Carrier",
+      "Emergency Exit"
+    ],
+    "_seed": 548
+  },
+  {
+    "id": "RT-252",
+    "operator": "KSRTC Rajahamsa",
+    "serviceType": "Rajahamsa Executive",
+    "fromCity": "Shivamogga",
+    "toCity": "Tumakuru",
+    "departureTime": "03:00 PM",
+    "arrivalTime": "11:30 AM",
+    "duration": "3h 45m",
+    "price": 360,
+    "seatsAvailable": 26,
+    "amenities": [
+      "2+2 Pushback Seats",
+      "Reading Lamp",
+      "Air Suspension",
+      "Mobile Charging Points",
+      "Luggage Carrier",
+      "Emergency Exit"
+    ],
+    "_seed": 549
+  },
+  {
+    "id": "RT-253",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Tumakuru",
+    "toCity": "Hassan",
+    "departureTime": "08:15 AM",
+    "arrivalTime": "10:45 AM",
+    "duration": "2h 30m",
+    "price": 195,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 550
+  },
+  {
+    "id": "RT-254",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Hassan",
+    "toCity": "Tumakuru",
+    "departureTime": "03:00 PM",
+    "arrivalTime": "10:45 AM",
+    "duration": "2h 30m",
+    "price": 195,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 551
+  },
+  {
+    "id": "RT-255",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Tumakuru",
+    "toCity": "Mysuru",
+    "departureTime": "07:00 AM",
+    "arrivalTime": "10:30 AM",
+    "duration": "3h 30m",
+    "price": 260,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 552
+  },
+  {
+    "id": "RT-256",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Mysuru",
+    "toCity": "Tumakuru",
+    "departureTime": "03:00 PM",
+    "arrivalTime": "10:30 AM",
+    "duration": "3h 30m",
+    "price": 260,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 553
+  },
+  {
+    "id": "RT-257",
+    "operator": "KSRTC Airavat",
+    "serviceType": "Airavat Club Class",
+    "fromCity": "Chitradurga",
+    "toCity": "Bengaluru",
+    "departureTime": "06:15 AM",
+    "arrivalTime": "10:30 AM",
+    "duration": "4h 15m",
+    "price": 460,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Air Suspension",
+      "Emergency Exit",
+      "Live GPS Tracking",
+      "Charging Ports",
+      "Blankets & Water Bottle",
+      "Reclining Ergonomic Seats"
+    ],
+    "_seed": 554
+  },
+  {
+    "id": "RT-258",
+    "operator": "KSRTC Airavat",
+    "serviceType": "Airavat Club Class",
+    "fromCity": "Bengaluru",
+    "toCity": "Chitradurga",
+    "departureTime": "02:00 PM",
+    "arrivalTime": "10:30 AM",
+    "duration": "4h 15m",
+    "price": 460,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Air Suspension",
+      "Emergency Exit",
+      "Live GPS Tracking",
+      "Charging Ports",
+      "Blankets & Water Bottle",
+      "Reclining Ergonomic Seats"
+    ],
+    "_seed": 555
+  },
+  {
+    "id": "RT-259",
+    "operator": "KSRTC Non-AC Sleeper",
+    "serviceType": "Non-AC Sleeper",
+    "fromCity": "Chitradurga",
+    "toCity": "Bengaluru",
+    "departureTime": "11:00 PM",
+    "arrivalTime": "04:30 AM",
+    "duration": "5h 30m",
+    "price": 510,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Spacious Individual Sleep Berths",
+      "Charging Point per Berth",
+      "Personal Reading Lights",
+      "Clean Linen & Pillows",
+      "Luggage Underberth Storage"
+    ],
+    "_seed": 556
+  },
+  {
+    "id": "RT-260",
+    "operator": "KSRTC Non-AC Sleeper",
+    "serviceType": "Non-AC Sleeper",
+    "fromCity": "Bengaluru",
+    "toCity": "Chitradurga",
+    "departureTime": "02:00 PM",
+    "arrivalTime": "04:30 AM",
+    "duration": "5h 30m",
+    "price": 510,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Spacious Individual Sleep Berths",
+      "Charging Point per Berth",
+      "Personal Reading Lights",
+      "Clean Linen & Pillows",
+      "Luggage Underberth Storage"
+    ],
+    "_seed": 557
+  },
+  {
+    "id": "RT-261",
+    "operator": "NWKRTC EV Power Plus",
+    "serviceType": "EV Power Plus",
+    "fromCity": "Chitradurga",
+    "toCity": "Hubballi",
+    "departureTime": "08:30 AM",
+    "arrivalTime": "11:45 AM",
+    "duration": "3h 15m",
+    "price": 390,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Zero Emission Electric Coach",
+      "Fast USB-C Charging at Every Seat",
+      "Whisper-Quiet Cabin",
+      "Air Suspension Comfort",
+      "Live Telematics & GPS",
+      "Driver CCTV & Speed Governance"
+    ],
+    "_seed": 558
+  },
+  {
+    "id": "RT-262",
+    "operator": "NWKRTC EV Power Plus",
+    "serviceType": "EV Power Plus",
+    "fromCity": "Hubballi",
+    "toCity": "Chitradurga",
+    "departureTime": "02:00 PM",
+    "arrivalTime": "11:45 AM",
+    "duration": "3h 15m",
+    "price": 390,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Zero Emission Electric Coach",
+      "Fast USB-C Charging at Every Seat",
+      "Whisper-Quiet Cabin",
+      "Air Suspension Comfort",
+      "Live Telematics & GPS",
+      "Driver CCTV & Speed Governance"
+    ],
+    "_seed": 559
+  },
+  {
+    "id": "RT-263",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Chitradurga",
+    "toCity": "Davanagere",
+    "departureTime": "07:15 AM",
+    "arrivalTime": "08:30 AM",
+    "duration": "1h 15m",
+    "price": 95,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 560
+  },
+  {
+    "id": "RT-264",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Davanagere",
+    "toCity": "Chitradurga",
+    "departureTime": "02:00 PM",
+    "arrivalTime": "08:30 AM",
+    "duration": "1h 15m",
+    "price": 95,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 561
+  },
+  {
+    "id": "RT-265",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Chitradurga",
+    "toCity": "Shivamogga",
+    "departureTime": "07:30 AM",
+    "arrivalTime": "10:00 AM",
+    "duration": "2h 30m",
+    "price": 180,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 562
+  },
+  {
+    "id": "RT-266",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Shivamogga",
+    "toCity": "Chitradurga",
+    "departureTime": "02:00 PM",
+    "arrivalTime": "10:00 AM",
+    "duration": "2h 30m",
+    "price": 180,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 563
+  },
+  {
+    "id": "RT-267",
+    "operator": "KKRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Chitradurga",
+    "toCity": "Ballari",
+    "departureTime": "08:00 AM",
+    "arrivalTime": "11:00 AM",
+    "duration": "3h 00m",
+    "price": 195,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 564
+  },
+  {
+    "id": "RT-268",
+    "operator": "KKRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Ballari",
+    "toCity": "Chitradurga",
+    "departureTime": "02:00 PM",
+    "arrivalTime": "11:00 AM",
+    "duration": "3h 00m",
+    "price": 195,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 565
+  },
+  {
+    "id": "RT-269",
+    "operator": "KKRTC Rajahamsa",
+    "serviceType": "Rajahamsa Executive",
+    "fromCity": "Chitradurga",
+    "toCity": "Vijayanagara (Hosapete)",
+    "departureTime": "09:15 AM",
+    "arrivalTime": "11:45 AM",
+    "duration": "2h 30m",
+    "price": 190,
+    "seatsAvailable": 26,
+    "amenities": [
+      "2+2 Pushback Seats",
+      "Reading Lamp",
+      "Air Suspension",
+      "Mobile Charging Points",
+      "Luggage Carrier",
+      "Emergency Exit"
+    ],
+    "_seed": 566
+  },
+  {
+    "id": "RT-270",
+    "operator": "KKRTC Rajahamsa",
+    "serviceType": "Rajahamsa Executive",
+    "fromCity": "Vijayanagara (Hosapete)",
+    "toCity": "Chitradurga",
+    "departureTime": "02:00 PM",
+    "arrivalTime": "11:45 AM",
+    "duration": "2h 30m",
+    "price": 190,
+    "seatsAvailable": 26,
+    "amenities": [
+      "2+2 Pushback Seats",
+      "Reading Lamp",
+      "Air Suspension",
+      "Mobile Charging Points",
+      "Luggage Carrier",
+      "Emergency Exit"
+    ],
+    "_seed": 567
+  },
+  {
+    "id": "RT-271",
+    "operator": "KSRTC EV Power Plus",
+    "serviceType": "EV Power Plus",
+    "fromCity": "Mandya",
+    "toCity": "Bengaluru",
+    "departureTime": "06:30 AM",
+    "arrivalTime": "08:00 AM",
+    "duration": "1h 30m",
+    "price": 190,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Zero Emission Electric Coach",
+      "Fast USB-C Charging at Every Seat",
+      "Whisper-Quiet Cabin",
+      "Air Suspension Comfort",
+      "Live Telematics & GPS",
+      "Driver CCTV & Speed Governance"
+    ],
+    "_seed": 568
+  },
+  {
+    "id": "RT-272",
+    "operator": "KSRTC EV Power Plus",
+    "serviceType": "EV Power Plus",
+    "fromCity": "Bengaluru",
+    "toCity": "Mandya",
+    "departureTime": "03:30 PM",
+    "arrivalTime": "08:00 AM",
+    "duration": "1h 30m",
+    "price": 190,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Zero Emission Electric Coach",
+      "Fast USB-C Charging at Every Seat",
+      "Whisper-Quiet Cabin",
+      "Air Suspension Comfort",
+      "Live Telematics & GPS",
+      "Driver CCTV & Speed Governance"
+    ],
+    "_seed": 569
+  },
+  {
+    "id": "RT-273",
+    "operator": "KSRTC EV Power Plus",
+    "serviceType": "EV Power Plus",
+    "fromCity": "Mandya",
+    "toCity": "Bengaluru",
+    "departureTime": "08:00 AM",
+    "arrivalTime": "09:30 AM",
+    "duration": "1h 30m",
+    "price": 190,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Zero Emission Electric Coach",
+      "Fast USB-C Charging at Every Seat",
+      "Whisper-Quiet Cabin",
+      "Air Suspension Comfort",
+      "Live Telematics & GPS",
+      "Driver CCTV & Speed Governance"
+    ],
+    "_seed": 570
+  },
+  {
+    "id": "RT-274",
+    "operator": "KSRTC EV Power Plus",
+    "serviceType": "EV Power Plus",
+    "fromCity": "Bengaluru",
+    "toCity": "Mandya",
+    "departureTime": "03:30 PM",
+    "arrivalTime": "09:30 AM",
+    "duration": "1h 30m",
+    "price": 190,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Zero Emission Electric Coach",
+      "Fast USB-C Charging at Every Seat",
+      "Whisper-Quiet Cabin",
+      "Air Suspension Comfort",
+      "Live Telematics & GPS",
+      "Driver CCTV & Speed Governance"
+    ],
+    "_seed": 571
+  },
+  {
+    "id": "RT-275",
+    "operator": "KSRTC EV Power Plus",
+    "serviceType": "EV Power Plus",
+    "fromCity": "Mandya",
+    "toCity": "Bengaluru",
+    "departureTime": "05:30 PM",
+    "arrivalTime": "07:00 PM",
+    "duration": "1h 30m",
+    "price": 190,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Zero Emission Electric Coach",
+      "Fast USB-C Charging at Every Seat",
+      "Whisper-Quiet Cabin",
+      "Air Suspension Comfort",
+      "Live Telematics & GPS",
+      "Driver CCTV & Speed Governance"
+    ],
+    "_seed": 572
+  },
+  {
+    "id": "RT-276",
+    "operator": "KSRTC EV Power Plus",
+    "serviceType": "EV Power Plus",
+    "fromCity": "Bengaluru",
+    "toCity": "Mandya",
+    "departureTime": "03:30 PM",
+    "arrivalTime": "07:00 PM",
+    "duration": "1h 30m",
+    "price": 190,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Zero Emission Electric Coach",
+      "Fast USB-C Charging at Every Seat",
+      "Whisper-Quiet Cabin",
+      "Air Suspension Comfort",
+      "Live Telematics & GPS",
+      "Driver CCTV & Speed Governance"
+    ],
+    "_seed": 573
+  },
+  {
+    "id": "RT-277",
+    "operator": "KSRTC EV Power Plus",
+    "serviceType": "EV Power Plus",
+    "fromCity": "Mandya",
+    "toCity": "Mysuru",
+    "departureTime": "07:00 AM",
+    "arrivalTime": "07:50 AM",
+    "duration": "0h 50m",
+    "price": 130,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Zero Emission Electric Coach",
+      "Fast USB-C Charging at Every Seat",
+      "Whisper-Quiet Cabin",
+      "Air Suspension Comfort",
+      "Live Telematics & GPS",
+      "Driver CCTV & Speed Governance"
+    ],
+    "_seed": 574
+  },
+  {
+    "id": "RT-278",
+    "operator": "KSRTC EV Power Plus",
+    "serviceType": "EV Power Plus",
+    "fromCity": "Mysuru",
+    "toCity": "Mandya",
+    "departureTime": "03:30 PM",
+    "arrivalTime": "07:50 AM",
+    "duration": "0h 50m",
+    "price": 130,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Zero Emission Electric Coach",
+      "Fast USB-C Charging at Every Seat",
+      "Whisper-Quiet Cabin",
+      "Air Suspension Comfort",
+      "Live Telematics & GPS",
+      "Driver CCTV & Speed Governance"
+    ],
+    "_seed": 575
+  },
+  {
+    "id": "RT-279",
+    "operator": "KSRTC EV Power Plus",
+    "serviceType": "EV Power Plus",
+    "fromCity": "Mandya",
+    "toCity": "Mysuru",
+    "departureTime": "01:30 PM",
+    "arrivalTime": "02:20 PM",
+    "duration": "0h 50m",
+    "price": 130,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Zero Emission Electric Coach",
+      "Fast USB-C Charging at Every Seat",
+      "Whisper-Quiet Cabin",
+      "Air Suspension Comfort",
+      "Live Telematics & GPS",
+      "Driver CCTV & Speed Governance"
+    ],
+    "_seed": 576
+  },
+  {
+    "id": "RT-280",
+    "operator": "KSRTC EV Power Plus",
+    "serviceType": "EV Power Plus",
+    "fromCity": "Mysuru",
+    "toCity": "Mandya",
+    "departureTime": "03:30 PM",
+    "arrivalTime": "02:20 PM",
+    "duration": "0h 50m",
+    "price": 130,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Zero Emission Electric Coach",
+      "Fast USB-C Charging at Every Seat",
+      "Whisper-Quiet Cabin",
+      "Air Suspension Comfort",
+      "Live Telematics & GPS",
+      "Driver CCTV & Speed Governance"
+    ],
+    "_seed": 577
+  },
+  {
+    "id": "RT-281",
+    "operator": "KSRTC EV Power Plus",
+    "serviceType": "EV Power Plus",
+    "fromCity": "Mandya",
+    "toCity": "Mysuru",
+    "departureTime": "06:45 PM",
+    "arrivalTime": "07:35 PM",
+    "duration": "0h 50m",
+    "price": 130,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Zero Emission Electric Coach",
+      "Fast USB-C Charging at Every Seat",
+      "Whisper-Quiet Cabin",
+      "Air Suspension Comfort",
+      "Live Telematics & GPS",
+      "Driver CCTV & Speed Governance"
+    ],
+    "_seed": 578
+  },
+  {
+    "id": "RT-282",
+    "operator": "KSRTC EV Power Plus",
+    "serviceType": "EV Power Plus",
+    "fromCity": "Mysuru",
+    "toCity": "Mandya",
+    "departureTime": "03:30 PM",
+    "arrivalTime": "07:35 PM",
+    "duration": "0h 50m",
+    "price": 130,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Zero Emission Electric Coach",
+      "Fast USB-C Charging at Every Seat",
+      "Whisper-Quiet Cabin",
+      "Air Suspension Comfort",
+      "Live Telematics & GPS",
+      "Driver CCTV & Speed Governance"
+    ],
+    "_seed": 579
+  },
+  {
+    "id": "RT-283",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Mandya",
+    "toCity": "Chamarajanagar",
+    "departureTime": "08:00 AM",
+    "arrivalTime": "10:15 AM",
+    "duration": "2h 15m",
+    "price": 160,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 580
+  },
+  {
+    "id": "RT-284",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Chamarajanagar",
+    "toCity": "Mandya",
+    "departureTime": "03:30 PM",
+    "arrivalTime": "10:15 AM",
+    "duration": "2h 15m",
+    "price": 160,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 581
+  },
+  {
+    "id": "RT-285",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Mandya",
+    "toCity": "Hassan",
+    "departureTime": "08:45 AM",
+    "arrivalTime": "11:30 AM",
+    "duration": "2h 45m",
+    "price": 185,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 582
+  },
+  {
+    "id": "RT-286",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Hassan",
+    "toCity": "Mandya",
+    "departureTime": "03:30 PM",
+    "arrivalTime": "11:30 AM",
+    "duration": "2h 45m",
+    "price": 185,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 583
+  },
+  {
+    "id": "RT-287",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Chamarajanagar",
+    "toCity": "Mysuru",
+    "departureTime": "06:15 AM",
+    "arrivalTime": "07:30 AM",
+    "duration": "1h 15m",
+    "price": 95,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 584
+  },
+  {
+    "id": "RT-288",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Mysuru",
+    "toCity": "Chamarajanagar",
+    "departureTime": "02:00 PM",
+    "arrivalTime": "07:30 AM",
+    "duration": "1h 15m",
+    "price": 95,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 585
+  },
+  {
+    "id": "RT-289",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Chamarajanagar",
+    "toCity": "Mysuru",
+    "departureTime": "11:30 AM",
+    "arrivalTime": "12:45 PM",
+    "duration": "1h 15m",
+    "price": 95,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 586
+  },
+  {
+    "id": "RT-290",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Mysuru",
+    "toCity": "Chamarajanagar",
+    "departureTime": "02:00 PM",
+    "arrivalTime": "12:45 PM",
+    "duration": "1h 15m",
+    "price": 95,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 587
+  },
+  {
+    "id": "RT-291",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Chamarajanagar",
+    "toCity": "Mysuru",
+    "departureTime": "04:30 PM",
+    "arrivalTime": "05:45 PM",
+    "duration": "1h 15m",
+    "price": 95,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 588
+  },
+  {
+    "id": "RT-292",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Mysuru",
+    "toCity": "Chamarajanagar",
+    "departureTime": "02:00 PM",
+    "arrivalTime": "05:45 PM",
+    "duration": "1h 15m",
+    "price": 95,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 589
+  },
+  {
+    "id": "RT-293",
+    "operator": "KSRTC Rajahamsa",
+    "serviceType": "Rajahamsa Executive",
+    "fromCity": "Chamarajanagar",
+    "toCity": "Bengaluru",
+    "departureTime": "07:00 AM",
+    "arrivalTime": "11:30 AM",
+    "duration": "4h 30m",
+    "price": 340,
+    "seatsAvailable": 26,
+    "amenities": [
+      "2+2 Pushback Seats",
+      "Reading Lamp",
+      "Air Suspension",
+      "Mobile Charging Points",
+      "Luggage Carrier",
+      "Emergency Exit"
+    ],
+    "_seed": 590
+  },
+  {
+    "id": "RT-294",
+    "operator": "KSRTC Rajahamsa",
+    "serviceType": "Rajahamsa Executive",
+    "fromCity": "Bengaluru",
+    "toCity": "Chamarajanagar",
+    "departureTime": "02:00 PM",
+    "arrivalTime": "11:30 AM",
+    "duration": "4h 30m",
+    "price": 340,
+    "seatsAvailable": 26,
+    "amenities": [
+      "2+2 Pushback Seats",
+      "Reading Lamp",
+      "Air Suspension",
+      "Mobile Charging Points",
+      "Luggage Carrier",
+      "Emergency Exit"
+    ],
+    "_seed": 591
+  },
+  {
+    "id": "RT-295",
+    "operator": "KSRTC Non-AC Sleeper",
+    "serviceType": "Non-AC Sleeper",
+    "fromCity": "Chamarajanagar",
+    "toCity": "Bengaluru",
+    "departureTime": "09:45 PM",
+    "arrivalTime": "04:00 AM",
+    "duration": "6h 15m",
+    "price": 450,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Spacious Individual Sleep Berths",
+      "Charging Point per Berth",
+      "Personal Reading Lights",
+      "Clean Linen & Pillows",
+      "Luggage Underberth Storage"
+    ],
+    "_seed": 592
+  },
+  {
+    "id": "RT-296",
+    "operator": "KSRTC Non-AC Sleeper",
+    "serviceType": "Non-AC Sleeper",
+    "fromCity": "Bengaluru",
+    "toCity": "Chamarajanagar",
+    "departureTime": "02:00 PM",
+    "arrivalTime": "04:00 AM",
+    "duration": "6h 15m",
+    "price": 450,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Spacious Individual Sleep Berths",
+      "Charging Point per Berth",
+      "Personal Reading Lights",
+      "Clean Linen & Pillows",
+      "Luggage Underberth Storage"
+    ],
+    "_seed": 593
+  },
+  {
+    "id": "RT-297",
+    "operator": "KSRTC EV Power Plus",
+    "serviceType": "EV Power Plus",
+    "fromCity": "Ramanagara",
+    "toCity": "Bengaluru",
+    "departureTime": "06:30 AM",
+    "arrivalTime": "07:30 AM",
+    "duration": "1h 00m",
+    "price": 95,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Zero Emission Electric Coach",
+      "Fast USB-C Charging at Every Seat",
+      "Whisper-Quiet Cabin",
+      "Air Suspension Comfort",
+      "Live Telematics & GPS",
+      "Driver CCTV & Speed Governance"
+    ],
+    "_seed": 594
+  },
+  {
+    "id": "RT-298",
+    "operator": "KSRTC EV Power Plus",
+    "serviceType": "EV Power Plus",
+    "fromCity": "Bengaluru",
+    "toCity": "Ramanagara",
+    "departureTime": "01:30 PM",
+    "arrivalTime": "07:30 AM",
+    "duration": "1h 00m",
+    "price": 95,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Zero Emission Electric Coach",
+      "Fast USB-C Charging at Every Seat",
+      "Whisper-Quiet Cabin",
+      "Air Suspension Comfort",
+      "Live Telematics & GPS",
+      "Driver CCTV & Speed Governance"
+    ],
+    "_seed": 595
+  },
+  {
+    "id": "RT-299",
+    "operator": "KSRTC EV Power Plus",
+    "serviceType": "EV Power Plus",
+    "fromCity": "Ramanagara",
+    "toCity": "Bengaluru",
+    "departureTime": "04:30 PM",
+    "arrivalTime": "05:30 PM",
+    "duration": "1h 00m",
+    "price": 95,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Zero Emission Electric Coach",
+      "Fast USB-C Charging at Every Seat",
+      "Whisper-Quiet Cabin",
+      "Air Suspension Comfort",
+      "Live Telematics & GPS",
+      "Driver CCTV & Speed Governance"
+    ],
+    "_seed": 596
+  },
+  {
+    "id": "RT-300",
+    "operator": "KSRTC EV Power Plus",
+    "serviceType": "EV Power Plus",
+    "fromCity": "Bengaluru",
+    "toCity": "Ramanagara",
+    "departureTime": "01:30 PM",
+    "arrivalTime": "05:30 PM",
+    "duration": "1h 00m",
+    "price": 95,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Zero Emission Electric Coach",
+      "Fast USB-C Charging at Every Seat",
+      "Whisper-Quiet Cabin",
+      "Air Suspension Comfort",
+      "Live Telematics & GPS",
+      "Driver CCTV & Speed Governance"
+    ],
+    "_seed": 597
+  },
+  {
+    "id": "RT-301",
+    "operator": "KSRTC EV Power Plus",
+    "serviceType": "EV Power Plus",
+    "fromCity": "Ramanagara",
+    "toCity": "Mysuru",
+    "departureTime": "07:15 AM",
+    "arrivalTime": "08:45 AM",
+    "duration": "1h 30m",
+    "price": 220,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Zero Emission Electric Coach",
+      "Fast USB-C Charging at Every Seat",
+      "Whisper-Quiet Cabin",
+      "Air Suspension Comfort",
+      "Live Telematics & GPS",
+      "Driver CCTV & Speed Governance"
+    ],
+    "_seed": 598
+  },
+  {
+    "id": "RT-302",
+    "operator": "KSRTC EV Power Plus",
+    "serviceType": "EV Power Plus",
+    "fromCity": "Mysuru",
+    "toCity": "Ramanagara",
+    "departureTime": "01:30 PM",
+    "arrivalTime": "08:45 AM",
+    "duration": "1h 30m",
+    "price": 220,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Zero Emission Electric Coach",
+      "Fast USB-C Charging at Every Seat",
+      "Whisper-Quiet Cabin",
+      "Air Suspension Comfort",
+      "Live Telematics & GPS",
+      "Driver CCTV & Speed Governance"
+    ],
+    "_seed": 599
+  },
+  {
+    "id": "RT-303",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Ramanagara",
+    "toCity": "Mandya",
+    "departureTime": "08:00 AM",
+    "arrivalTime": "08:50 AM",
+    "duration": "0h 50m",
+    "price": 85,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 600
+  },
+  {
+    "id": "RT-304",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Mandya",
+    "toCity": "Ramanagara",
+    "departureTime": "01:30 PM",
+    "arrivalTime": "08:50 AM",
+    "duration": "0h 50m",
+    "price": 85,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 601
+  },
+  {
+    "id": "RT-305",
+    "operator": "KSRTC Non-Stop",
+    "serviceType": "Express",
+    "fromCity": "Kolar",
+    "toCity": "Bengaluru",
+    "departureTime": "06:00 AM",
+    "arrivalTime": "07:30 AM",
+    "duration": "1h 30m",
+    "price": 110,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 602
+  },
+  {
+    "id": "RT-306",
+    "operator": "KSRTC Non-Stop",
+    "serviceType": "Express",
+    "fromCity": "Bengaluru",
+    "toCity": "Kolar",
+    "departureTime": "02:30 PM",
+    "arrivalTime": "07:30 AM",
+    "duration": "1h 30m",
+    "price": 110,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 603
+  },
+  {
+    "id": "RT-307",
+    "operator": "KSRTC Non-Stop",
+    "serviceType": "Express",
+    "fromCity": "Kolar",
+    "toCity": "Bengaluru",
+    "departureTime": "07:30 AM",
+    "arrivalTime": "09:00 AM",
+    "duration": "1h 30m",
+    "price": 110,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 604
+  },
+  {
+    "id": "RT-308",
+    "operator": "KSRTC Non-Stop",
+    "serviceType": "Express",
+    "fromCity": "Bengaluru",
+    "toCity": "Kolar",
+    "departureTime": "02:30 PM",
+    "arrivalTime": "09:00 AM",
+    "duration": "1h 30m",
+    "price": 110,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 605
+  },
+  {
+    "id": "RT-309",
+    "operator": "KSRTC Non-Stop",
+    "serviceType": "Express",
+    "fromCity": "Kolar",
+    "toCity": "Bengaluru",
+    "departureTime": "05:00 PM",
+    "arrivalTime": "06:30 PM",
+    "duration": "1h 30m",
+    "price": 110,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 606
+  },
+  {
+    "id": "RT-310",
+    "operator": "KSRTC Non-Stop",
+    "serviceType": "Express",
+    "fromCity": "Bengaluru",
+    "toCity": "Kolar",
+    "departureTime": "02:30 PM",
+    "arrivalTime": "06:30 PM",
+    "duration": "1h 30m",
+    "price": 110,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 607
+  },
+  {
+    "id": "RT-311",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Kolar",
+    "toCity": "Chikkaballapur",
+    "departureTime": "08:00 AM",
+    "arrivalTime": "09:30 AM",
+    "duration": "1h 30m",
+    "price": 95,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 608
+  },
+  {
+    "id": "RT-312",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Chikkaballapur",
+    "toCity": "Kolar",
+    "departureTime": "02:30 PM",
+    "arrivalTime": "09:30 AM",
+    "duration": "1h 30m",
+    "price": 95,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 609
+  },
+  {
+    "id": "RT-313",
+    "operator": "KSRTC Rajahamsa",
+    "serviceType": "Rajahamsa Executive",
+    "fromCity": "Kolar",
+    "toCity": "Mysuru",
+    "departureTime": "07:15 AM",
+    "arrivalTime": "12:00 PM",
+    "duration": "4h 45m",
+    "price": 360,
+    "seatsAvailable": 26,
+    "amenities": [
+      "2+2 Pushback Seats",
+      "Reading Lamp",
+      "Air Suspension",
+      "Mobile Charging Points",
+      "Luggage Carrier",
+      "Emergency Exit"
+    ],
+    "_seed": 610
+  },
+  {
+    "id": "RT-314",
+    "operator": "KSRTC Rajahamsa",
+    "serviceType": "Rajahamsa Executive",
+    "fromCity": "Mysuru",
+    "toCity": "Kolar",
+    "departureTime": "02:30 PM",
+    "arrivalTime": "12:00 PM",
+    "duration": "4h 45m",
+    "price": 360,
+    "seatsAvailable": 26,
+    "amenities": [
+      "2+2 Pushback Seats",
+      "Reading Lamp",
+      "Air Suspension",
+      "Mobile Charging Points",
+      "Luggage Carrier",
+      "Emergency Exit"
+    ],
+    "_seed": 611
+  },
+  {
+    "id": "RT-315",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Chikkaballapur",
+    "toCity": "Bengaluru",
+    "departureTime": "06:15 AM",
+    "arrivalTime": "07:30 AM",
+    "duration": "1h 15m",
+    "price": 95,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 612
+  },
+  {
+    "id": "RT-316",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Bengaluru",
+    "toCity": "Chikkaballapur",
+    "departureTime": "03:00 PM",
+    "arrivalTime": "07:30 AM",
+    "duration": "1h 15m",
+    "price": 95,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 613
+  },
+  {
+    "id": "RT-317",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Chikkaballapur",
+    "toCity": "Bengaluru",
+    "departureTime": "08:00 AM",
+    "arrivalTime": "09:15 AM",
+    "duration": "1h 15m",
+    "price": 95,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 614
+  },
+  {
+    "id": "RT-318",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Bengaluru",
+    "toCity": "Chikkaballapur",
+    "departureTime": "03:00 PM",
+    "arrivalTime": "09:15 AM",
+    "duration": "1h 15m",
+    "price": 95,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 615
+  },
+  {
+    "id": "RT-319",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Chikkaballapur",
+    "toCity": "Bengaluru",
+    "departureTime": "06:00 PM",
+    "arrivalTime": "07:15 PM",
+    "duration": "1h 15m",
+    "price": 95,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 616
+  },
+  {
+    "id": "RT-320",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Bengaluru",
+    "toCity": "Chikkaballapur",
+    "departureTime": "03:00 PM",
+    "arrivalTime": "07:15 PM",
+    "duration": "1h 15m",
+    "price": 95,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 617
+  },
+  {
+    "id": "RT-321",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Chikkaballapur",
+    "toCity": "Kolar",
+    "departureTime": "07:45 AM",
+    "arrivalTime": "09:15 AM",
+    "duration": "1h 30m",
+    "price": 95,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 618
+  },
+  {
+    "id": "RT-322",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Kolar",
+    "toCity": "Chikkaballapur",
+    "departureTime": "03:00 PM",
+    "arrivalTime": "09:15 AM",
+    "duration": "1h 30m",
+    "price": 95,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 619
+  },
+  {
+    "id": "RT-323",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Chikkaballapur",
+    "toCity": "Tumakuru",
+    "departureTime": "08:30 AM",
+    "arrivalTime": "10:30 AM",
+    "duration": "2h 00m",
+    "price": 130,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 620
+  },
+  {
+    "id": "RT-324",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Tumakuru",
+    "toCity": "Chikkaballapur",
+    "departureTime": "03:00 PM",
+    "arrivalTime": "10:30 AM",
+    "duration": "2h 00m",
+    "price": 130,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 621
+  },
+  {
+    "id": "RT-325",
+    "operator": "KSRTC Rajahamsa",
+    "serviceType": "Rajahamsa Executive",
+    "fromCity": "Chikkamagaluru",
+    "toCity": "Bengaluru",
+    "departureTime": "06:45 AM",
+    "arrivalTime": "11:30 AM",
+    "duration": "4h 45m",
+    "price": 430,
+    "seatsAvailable": 26,
+    "amenities": [
+      "2+2 Pushback Seats",
+      "Reading Lamp",
+      "Air Suspension",
+      "Mobile Charging Points",
+      "Luggage Carrier",
+      "Emergency Exit"
+    ],
+    "_seed": 622
+  },
+  {
+    "id": "RT-326",
+    "operator": "KSRTC Rajahamsa",
+    "serviceType": "Rajahamsa Executive",
+    "fromCity": "Bengaluru",
+    "toCity": "Chikkamagaluru",
+    "departureTime": "02:30 PM",
+    "arrivalTime": "11:30 AM",
+    "duration": "4h 45m",
+    "price": 430,
+    "seatsAvailable": 26,
+    "amenities": [
+      "2+2 Pushback Seats",
+      "Reading Lamp",
+      "Air Suspension",
+      "Mobile Charging Points",
+      "Luggage Carrier",
+      "Emergency Exit"
+    ],
+    "_seed": 623
+  },
+  {
+    "id": "RT-327",
+    "operator": "KSRTC Non-AC Sleeper",
+    "serviceType": "Non-AC Sleeper",
+    "fromCity": "Chikkamagaluru",
+    "toCity": "Bengaluru",
+    "departureTime": "10:30 PM",
+    "arrivalTime": "04:45 AM",
+    "duration": "6h 15m",
+    "price": 590,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Spacious Individual Sleep Berths",
+      "Charging Point per Berth",
+      "Personal Reading Lights",
+      "Clean Linen & Pillows",
+      "Luggage Underberth Storage"
+    ],
+    "_seed": 624
+  },
+  {
+    "id": "RT-328",
+    "operator": "KSRTC Non-AC Sleeper",
+    "serviceType": "Non-AC Sleeper",
+    "fromCity": "Bengaluru",
+    "toCity": "Chikkamagaluru",
+    "departureTime": "02:30 PM",
+    "arrivalTime": "04:45 AM",
+    "duration": "6h 15m",
+    "price": 590,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Spacious Individual Sleep Berths",
+      "Charging Point per Berth",
+      "Personal Reading Lights",
+      "Clean Linen & Pillows",
+      "Luggage Underberth Storage"
+    ],
+    "_seed": 625
+  },
+  {
+    "id": "RT-329",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Chikkamagaluru",
+    "toCity": "Mangaluru",
+    "departureTime": "07:30 AM",
+    "arrivalTime": "11:30 AM",
+    "duration": "4h 00m",
+    "price": 210,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 626
+  },
+  {
+    "id": "RT-330",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Mangaluru",
+    "toCity": "Chikkamagaluru",
+    "departureTime": "02:30 PM",
+    "arrivalTime": "11:30 AM",
+    "duration": "4h 00m",
+    "price": 210,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 627
+  },
+  {
+    "id": "RT-331",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Chikkamagaluru",
+    "toCity": "Hassan",
+    "departureTime": "06:15 AM",
+    "arrivalTime": "07:30 AM",
+    "duration": "1h 15m",
+    "price": 65,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 628
+  },
+  {
+    "id": "RT-332",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Hassan",
+    "toCity": "Chikkamagaluru",
+    "departureTime": "02:30 PM",
+    "arrivalTime": "07:30 AM",
+    "duration": "1h 15m",
+    "price": 65,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 629
+  },
+  {
+    "id": "RT-333",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Chikkamagaluru",
+    "toCity": "Shivamogga",
+    "departureTime": "08:00 AM",
+    "arrivalTime": "10:30 AM",
+    "duration": "2h 30m",
+    "price": 160,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 630
+  },
+  {
+    "id": "RT-334",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Shivamogga",
+    "toCity": "Chikkamagaluru",
+    "departureTime": "02:30 PM",
+    "arrivalTime": "10:30 AM",
+    "duration": "2h 30m",
+    "price": 160,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 631
+  },
+  {
+    "id": "RT-335",
+    "operator": "KSRTC Rajahamsa",
+    "serviceType": "Rajahamsa Executive",
+    "fromCity": "Chikkamagaluru",
+    "toCity": "Mysuru",
+    "departureTime": "07:00 AM",
+    "arrivalTime": "11:30 AM",
+    "duration": "4h 30m",
+    "price": 310,
+    "seatsAvailable": 26,
+    "amenities": [
+      "2+2 Pushback Seats",
+      "Reading Lamp",
+      "Air Suspension",
+      "Mobile Charging Points",
+      "Luggage Carrier",
+      "Emergency Exit"
+    ],
+    "_seed": 632
+  },
+  {
+    "id": "RT-336",
+    "operator": "KSRTC Rajahamsa",
+    "serviceType": "Rajahamsa Executive",
+    "fromCity": "Mysuru",
+    "toCity": "Chikkamagaluru",
+    "departureTime": "02:30 PM",
+    "arrivalTime": "11:30 AM",
+    "duration": "4h 30m",
+    "price": 310,
+    "seatsAvailable": 26,
+    "amenities": [
+      "2+2 Pushback Seats",
+      "Reading Lamp",
+      "Air Suspension",
+      "Mobile Charging Points",
+      "Luggage Carrier",
+      "Emergency Exit"
+    ],
+    "_seed": 633
+  },
+  {
+    "id": "RT-337",
+    "operator": "NWKRTC Rajahamsa",
+    "serviceType": "Rajahamsa Executive",
+    "fromCity": "Chikkamagaluru",
+    "toCity": "Hubballi",
+    "departureTime": "08:30 AM",
+    "arrivalTime": "02:00 PM",
+    "duration": "5h 30m",
+    "price": 420,
+    "seatsAvailable": 26,
+    "amenities": [
+      "2+2 Pushback Seats",
+      "Reading Lamp",
+      "Air Suspension",
+      "Mobile Charging Points",
+      "Luggage Carrier",
+      "Emergency Exit"
+    ],
+    "_seed": 634
+  },
+  {
+    "id": "RT-338",
+    "operator": "NWKRTC Rajahamsa",
+    "serviceType": "Rajahamsa Executive",
+    "fromCity": "Hubballi",
+    "toCity": "Chikkamagaluru",
+    "departureTime": "02:30 PM",
+    "arrivalTime": "02:00 PM",
+    "duration": "5h 30m",
+    "price": 420,
+    "seatsAvailable": 26,
+    "amenities": [
+      "2+2 Pushback Seats",
+      "Reading Lamp",
+      "Air Suspension",
+      "Mobile Charging Points",
+      "Luggage Carrier",
+      "Emergency Exit"
+    ],
+    "_seed": 635
+  },
+  {
+    "id": "RT-339",
+    "operator": "NWKRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Gadag",
+    "toCity": "Hubballi",
+    "departureTime": "06:30 AM",
+    "arrivalTime": "07:45 AM",
+    "duration": "1h 15m",
+    "price": 85,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 636
+  },
+  {
+    "id": "RT-340",
+    "operator": "NWKRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Hubballi",
+    "toCity": "Gadag",
+    "departureTime": "01:30 PM",
+    "arrivalTime": "07:45 AM",
+    "duration": "1h 15m",
+    "price": 85,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 637
+  },
+  {
+    "id": "RT-341",
+    "operator": "NWKRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Gadag",
+    "toCity": "Hubballi",
+    "departureTime": "10:00 AM",
+    "arrivalTime": "11:15 AM",
+    "duration": "1h 15m",
+    "price": 85,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 638
+  },
+  {
+    "id": "RT-342",
+    "operator": "NWKRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Hubballi",
+    "toCity": "Gadag",
+    "departureTime": "01:30 PM",
+    "arrivalTime": "11:15 AM",
+    "duration": "1h 15m",
+    "price": 85,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 639
+  },
+  {
+    "id": "RT-343",
+    "operator": "NWKRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Gadag",
+    "toCity": "Hubballi",
+    "departureTime": "04:30 PM",
+    "arrivalTime": "05:45 PM",
+    "duration": "1h 15m",
+    "price": 85,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 640
+  },
+  {
+    "id": "RT-344",
+    "operator": "NWKRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Hubballi",
+    "toCity": "Gadag",
+    "departureTime": "01:30 PM",
+    "arrivalTime": "05:45 PM",
+    "duration": "1h 15m",
+    "price": 85,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 641
+  },
+  {
+    "id": "RT-345",
+    "operator": "NWKRTC Non-AC Sleeper",
+    "serviceType": "Non-AC Sleeper",
+    "fromCity": "Gadag",
+    "toCity": "Bengaluru",
+    "departureTime": "09:30 PM",
+    "arrivalTime": "05:45 AM",
+    "duration": "8h 15m",
+    "price": 680,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Spacious Individual Sleep Berths",
+      "Charging Point per Berth",
+      "Personal Reading Lights",
+      "Clean Linen & Pillows",
+      "Luggage Underberth Storage"
+    ],
+    "_seed": 642
+  },
+  {
+    "id": "RT-346",
+    "operator": "NWKRTC Non-AC Sleeper",
+    "serviceType": "Non-AC Sleeper",
+    "fromCity": "Bengaluru",
+    "toCity": "Gadag",
+    "departureTime": "01:30 PM",
+    "arrivalTime": "05:45 AM",
+    "duration": "8h 15m",
+    "price": 680,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Spacious Individual Sleep Berths",
+      "Charging Point per Berth",
+      "Personal Reading Lights",
+      "Clean Linen & Pillows",
+      "Luggage Underberth Storage"
+    ],
+    "_seed": 643
+  },
+  {
+    "id": "RT-347",
+    "operator": "NWKRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Gadag",
+    "toCity": "Bagalkote (Badami)",
+    "departureTime": "07:45 AM",
+    "arrivalTime": "09:30 AM",
+    "duration": "1h 45m",
+    "price": 115,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 644
+  },
+  {
+    "id": "RT-348",
+    "operator": "NWKRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Bagalkote (Badami)",
+    "toCity": "Gadag",
+    "departureTime": "01:30 PM",
+    "arrivalTime": "09:30 AM",
+    "duration": "1h 45m",
+    "price": 115,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 645
+  },
+  {
+    "id": "RT-349",
+    "operator": "NWKRTC Rajahamsa",
+    "serviceType": "Rajahamsa Executive",
+    "fromCity": "Gadag",
+    "toCity": "Belagavi",
+    "departureTime": "08:00 AM",
+    "arrivalTime": "11:30 AM",
+    "duration": "3h 30m",
+    "price": 260,
+    "seatsAvailable": 26,
+    "amenities": [
+      "2+2 Pushback Seats",
+      "Reading Lamp",
+      "Air Suspension",
+      "Mobile Charging Points",
+      "Luggage Carrier",
+      "Emergency Exit"
+    ],
+    "_seed": 646
+  },
+  {
+    "id": "RT-350",
+    "operator": "NWKRTC Rajahamsa",
+    "serviceType": "Rajahamsa Executive",
+    "fromCity": "Belagavi",
+    "toCity": "Gadag",
+    "departureTime": "01:30 PM",
+    "arrivalTime": "11:30 AM",
+    "duration": "3h 30m",
+    "price": 260,
+    "seatsAvailable": 26,
+    "amenities": [
+      "2+2 Pushback Seats",
+      "Reading Lamp",
+      "Air Suspension",
+      "Mobile Charging Points",
+      "Luggage Carrier",
+      "Emergency Exit"
+    ],
+    "_seed": 647
+  },
+  {
+    "id": "RT-351",
+    "operator": "NWKRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Haveri",
+    "toCity": "Hubballi",
+    "departureTime": "06:45 AM",
+    "arrivalTime": "08:15 AM",
+    "duration": "1h 30m",
+    "price": 115,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 648
+  },
+  {
+    "id": "RT-352",
+    "operator": "NWKRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Hubballi",
+    "toCity": "Haveri",
+    "departureTime": "03:00 PM",
+    "arrivalTime": "08:15 AM",
+    "duration": "1h 30m",
+    "price": 115,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 649
+  },
+  {
+    "id": "RT-353",
+    "operator": "NWKRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Haveri",
+    "toCity": "Hubballi",
+    "departureTime": "02:15 PM",
+    "arrivalTime": "03:45 PM",
+    "duration": "1h 30m",
+    "price": 115,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 650
+  },
+  {
+    "id": "RT-354",
+    "operator": "NWKRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Hubballi",
+    "toCity": "Haveri",
+    "departureTime": "03:00 PM",
+    "arrivalTime": "03:45 PM",
+    "duration": "1h 30m",
+    "price": 115,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 651
+  },
+  {
+    "id": "RT-355",
+    "operator": "NWKRTC Rajahamsa",
+    "serviceType": "Rajahamsa Executive",
+    "fromCity": "Haveri",
+    "toCity": "Bengaluru",
+    "departureTime": "08:00 AM",
+    "arrivalTime": "02:30 PM",
+    "duration": "6h 30m",
+    "price": 620,
+    "seatsAvailable": 26,
+    "amenities": [
+      "2+2 Pushback Seats",
+      "Reading Lamp",
+      "Air Suspension",
+      "Mobile Charging Points",
+      "Luggage Carrier",
+      "Emergency Exit"
+    ],
+    "_seed": 652
+  },
+  {
+    "id": "RT-356",
+    "operator": "NWKRTC Rajahamsa",
+    "serviceType": "Rajahamsa Executive",
+    "fromCity": "Bengaluru",
+    "toCity": "Haveri",
+    "departureTime": "03:00 PM",
+    "arrivalTime": "02:30 PM",
+    "duration": "6h 30m",
+    "price": 620,
+    "seatsAvailable": 26,
+    "amenities": [
+      "2+2 Pushback Seats",
+      "Reading Lamp",
+      "Air Suspension",
+      "Mobile Charging Points",
+      "Luggage Carrier",
+      "Emergency Exit"
+    ],
+    "_seed": 653
+  },
+  {
+    "id": "RT-357",
+    "operator": "NWKRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Haveri",
+    "toCity": "Davanagere",
+    "departureTime": "07:30 AM",
+    "arrivalTime": "08:30 AM",
+    "duration": "1h 00m",
+    "price": 75,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 654
+  },
+  {
+    "id": "RT-358",
+    "operator": "NWKRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Davanagere",
+    "toCity": "Haveri",
+    "departureTime": "03:00 PM",
+    "arrivalTime": "08:30 AM",
+    "duration": "1h 00m",
+    "price": 75,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 655
+  },
+  {
+    "id": "RT-359",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Haveri",
+    "toCity": "Shivamogga",
+    "departureTime": "08:30 AM",
+    "arrivalTime": "11:00 AM",
+    "duration": "2h 30m",
+    "price": 175,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 656
+  },
+  {
+    "id": "RT-360",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Shivamogga",
+    "toCity": "Haveri",
+    "departureTime": "03:00 PM",
+    "arrivalTime": "11:00 AM",
+    "duration": "2h 30m",
+    "price": 175,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 657
+  },
+  {
+    "id": "RT-361",
+    "operator": "KKRTC Airavat",
+    "serviceType": "Airavat Club Class",
+    "fromCity": "Raichur",
+    "toCity": "Bengaluru",
+    "departureTime": "09:30 PM",
+    "arrivalTime": "05:30 AM",
+    "duration": "8h 00m",
+    "price": 850,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Air Suspension",
+      "Emergency Exit",
+      "Live GPS Tracking",
+      "Charging Ports",
+      "Blankets & Water Bottle",
+      "Reclining Ergonomic Seats"
+    ],
+    "_seed": 658
+  },
+  {
+    "id": "RT-362",
+    "operator": "KKRTC Airavat",
+    "serviceType": "Airavat Club Class",
+    "fromCity": "Bengaluru",
+    "toCity": "Raichur",
+    "departureTime": "02:00 PM",
+    "arrivalTime": "05:30 AM",
+    "duration": "8h 00m",
+    "price": 850,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Air Suspension",
+      "Emergency Exit",
+      "Live GPS Tracking",
+      "Charging Ports",
+      "Blankets & Water Bottle",
+      "Reclining Ergonomic Seats"
+    ],
+    "_seed": 659
+  },
+  {
+    "id": "RT-363",
+    "operator": "KKRTC Kalyana Sarige",
+    "serviceType": "Express",
+    "fromCity": "Raichur",
+    "toCity": "Kalaburagi",
+    "departureTime": "08:00 AM",
+    "arrivalTime": "11:00 AM",
+    "duration": "3h 00m",
+    "price": 240,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 660
+  },
+  {
+    "id": "RT-364",
+    "operator": "KKRTC Kalyana Sarige",
+    "serviceType": "Express",
+    "fromCity": "Kalaburagi",
+    "toCity": "Raichur",
+    "departureTime": "02:00 PM",
+    "arrivalTime": "11:00 AM",
+    "duration": "3h 00m",
+    "price": 240,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 661
+  },
+  {
+    "id": "RT-365",
+    "operator": "KKRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Raichur",
+    "toCity": "Ballari",
+    "departureTime": "07:30 AM",
+    "arrivalTime": "10:30 AM",
+    "duration": "3h 00m",
+    "price": 195,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 662
+  },
+  {
+    "id": "RT-366",
+    "operator": "KKRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Ballari",
+    "toCity": "Raichur",
+    "departureTime": "02:00 PM",
+    "arrivalTime": "10:30 AM",
+    "duration": "3h 00m",
+    "price": 195,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 663
+  },
+  {
+    "id": "RT-367",
+    "operator": "KKRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Raichur",
+    "toCity": "Yadgir",
+    "departureTime": "07:00 AM",
+    "arrivalTime": "08:30 AM",
+    "duration": "1h 30m",
+    "price": 115,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 664
+  },
+  {
+    "id": "RT-368",
+    "operator": "KKRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Yadgir",
+    "toCity": "Raichur",
+    "departureTime": "02:00 PM",
+    "arrivalTime": "08:30 AM",
+    "duration": "1h 30m",
+    "price": 115,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 665
+  },
+  {
+    "id": "RT-369",
+    "operator": "KKRTC Rajahamsa",
+    "serviceType": "Rajahamsa Executive",
+    "fromCity": "Raichur",
+    "toCity": "Hubballi",
+    "departureTime": "08:00 AM",
+    "arrivalTime": "02:00 PM",
+    "duration": "6h 00m",
+    "price": 410,
+    "seatsAvailable": 26,
+    "amenities": [
+      "2+2 Pushback Seats",
+      "Reading Lamp",
+      "Air Suspension",
+      "Mobile Charging Points",
+      "Luggage Carrier",
+      "Emergency Exit"
+    ],
+    "_seed": 666
+  },
+  {
+    "id": "RT-370",
+    "operator": "KKRTC Rajahamsa",
+    "serviceType": "Rajahamsa Executive",
+    "fromCity": "Hubballi",
+    "toCity": "Raichur",
+    "departureTime": "02:00 PM",
+    "arrivalTime": "02:00 PM",
+    "duration": "6h 00m",
+    "price": 410,
+    "seatsAvailable": 26,
+    "amenities": [
+      "2+2 Pushback Seats",
+      "Reading Lamp",
+      "Air Suspension",
+      "Mobile Charging Points",
+      "Luggage Carrier",
+      "Emergency Exit"
+    ],
+    "_seed": 667
+  },
+  {
+    "id": "RT-371",
+    "operator": "KKRTC Kalyana Sarige",
+    "serviceType": "Express",
+    "fromCity": "Yadgir",
+    "toCity": "Kalaburagi",
+    "departureTime": "06:30 AM",
+    "arrivalTime": "08:00 AM",
+    "duration": "1h 30m",
+    "price": 115,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 668
+  },
+  {
+    "id": "RT-372",
+    "operator": "KKRTC Kalyana Sarige",
+    "serviceType": "Express",
+    "fromCity": "Kalaburagi",
+    "toCity": "Yadgir",
+    "departureTime": "04:00 PM",
+    "arrivalTime": "08:00 AM",
+    "duration": "1h 30m",
+    "price": 115,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 669
+  },
+  {
+    "id": "RT-373",
+    "operator": "KKRTC Kalyana Sarige",
+    "serviceType": "Express",
+    "fromCity": "Yadgir",
+    "toCity": "Kalaburagi",
+    "departureTime": "01:30 PM",
+    "arrivalTime": "03:00 PM",
+    "duration": "1h 30m",
+    "price": 115,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 670
+  },
+  {
+    "id": "RT-374",
+    "operator": "KKRTC Kalyana Sarige",
+    "serviceType": "Express",
+    "fromCity": "Kalaburagi",
+    "toCity": "Yadgir",
+    "departureTime": "04:00 PM",
+    "arrivalTime": "03:00 PM",
+    "duration": "1h 30m",
+    "price": 115,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 671
+  },
+  {
+    "id": "RT-375",
+    "operator": "KKRTC Non-AC Sleeper",
+    "serviceType": "Non-AC Sleeper",
+    "fromCity": "Yadgir",
+    "toCity": "Bengaluru",
+    "departureTime": "09:00 PM",
+    "arrivalTime": "05:45 AM",
+    "duration": "8h 45m",
+    "price": 790,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Spacious Individual Sleep Berths",
+      "Charging Point per Berth",
+      "Personal Reading Lights",
+      "Clean Linen & Pillows",
+      "Luggage Underberth Storage"
+    ],
+    "_seed": 672
+  },
+  {
+    "id": "RT-376",
+    "operator": "KKRTC Non-AC Sleeper",
+    "serviceType": "Non-AC Sleeper",
+    "fromCity": "Bengaluru",
+    "toCity": "Yadgir",
+    "departureTime": "04:00 PM",
+    "arrivalTime": "05:45 AM",
+    "duration": "8h 45m",
+    "price": 790,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Spacious Individual Sleep Berths",
+      "Charging Point per Berth",
+      "Personal Reading Lights",
+      "Clean Linen & Pillows",
+      "Luggage Underberth Storage"
+    ],
+    "_seed": 673
+  },
+  {
+    "id": "RT-377",
+    "operator": "KKRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Yadgir",
+    "toCity": "Bidar",
+    "departureTime": "07:45 AM",
+    "arrivalTime": "11:30 AM",
+    "duration": "3h 45m",
+    "price": 260,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 674
+  },
+  {
+    "id": "RT-378",
+    "operator": "KKRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Bidar",
+    "toCity": "Yadgir",
+    "departureTime": "04:00 PM",
+    "arrivalTime": "11:30 AM",
+    "duration": "3h 45m",
+    "price": 260,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 675
+  },
+  {
+    "id": "RT-379",
+    "operator": "NWKRTC Rajahamsa",
+    "serviceType": "Rajahamsa Executive",
+    "fromCity": "Uttara Kannada (Karwar)",
+    "toCity": "Hubballi",
+    "departureTime": "07:15 AM",
+    "arrivalTime": "11:00 AM",
+    "duration": "3h 45m",
+    "price": 270,
+    "seatsAvailable": 26,
+    "amenities": [
+      "2+2 Pushback Seats",
+      "Reading Lamp",
+      "Air Suspension",
+      "Mobile Charging Points",
+      "Luggage Carrier",
+      "Emergency Exit"
+    ],
+    "_seed": 676
+  },
+  {
+    "id": "RT-380",
+    "operator": "NWKRTC Rajahamsa",
+    "serviceType": "Rajahamsa Executive",
+    "fromCity": "Hubballi",
+    "toCity": "Uttara Kannada (Karwar)",
+    "departureTime": "02:30 PM",
+    "arrivalTime": "11:00 AM",
+    "duration": "3h 45m",
+    "price": 270,
+    "seatsAvailable": 26,
+    "amenities": [
+      "2+2 Pushback Seats",
+      "Reading Lamp",
+      "Air Suspension",
+      "Mobile Charging Points",
+      "Luggage Carrier",
+      "Emergency Exit"
+    ],
+    "_seed": 677
+  },
+  {
+    "id": "RT-381",
+    "operator": "NWKRTC Airavat",
+    "serviceType": "Airavat Club Class",
+    "fromCity": "Uttara Kannada (Karwar)",
+    "toCity": "Bengaluru",
+    "departureTime": "08:30 PM",
+    "arrivalTime": "06:30 AM",
+    "duration": "10h 00m",
+    "price": 920,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Air Suspension",
+      "Emergency Exit",
+      "Live GPS Tracking",
+      "Charging Ports",
+      "Blankets & Water Bottle",
+      "Reclining Ergonomic Seats"
+    ],
+    "_seed": 678
+  },
+  {
+    "id": "RT-382",
+    "operator": "NWKRTC Airavat",
+    "serviceType": "Airavat Club Class",
+    "fromCity": "Bengaluru",
+    "toCity": "Uttara Kannada (Karwar)",
+    "departureTime": "02:30 PM",
+    "arrivalTime": "06:30 AM",
+    "duration": "10h 00m",
+    "price": 920,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Air Suspension",
+      "Emergency Exit",
+      "Live GPS Tracking",
+      "Charging Ports",
+      "Blankets & Water Bottle",
+      "Reclining Ergonomic Seats"
+    ],
+    "_seed": 679
+  },
+  {
+    "id": "RT-383",
+    "operator": "NWKRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Uttara Kannada (Karwar)",
+    "toCity": "Mangaluru",
+    "departureTime": "06:30 AM",
+    "arrivalTime": "11:30 AM",
+    "duration": "5h 00m",
+    "price": 340,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 680
+  },
+  {
+    "id": "RT-384",
+    "operator": "NWKRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Mangaluru",
+    "toCity": "Uttara Kannada (Karwar)",
+    "departureTime": "02:30 PM",
+    "arrivalTime": "11:30 AM",
+    "duration": "5h 00m",
+    "price": 340,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 681
+  },
+  {
+    "id": "RT-385",
+    "operator": "NWKRTC Rajahamsa",
+    "serviceType": "Rajahamsa Executive",
+    "fromCity": "Uttara Kannada (Karwar)",
+    "toCity": "Belagavi",
+    "departureTime": "07:45 AM",
+    "arrivalTime": "12:00 PM",
+    "duration": "4h 15m",
+    "price": 290,
+    "seatsAvailable": 26,
+    "amenities": [
+      "2+2 Pushback Seats",
+      "Reading Lamp",
+      "Air Suspension",
+      "Mobile Charging Points",
+      "Luggage Carrier",
+      "Emergency Exit"
+    ],
+    "_seed": 682
+  },
+  {
+    "id": "RT-386",
+    "operator": "NWKRTC Rajahamsa",
+    "serviceType": "Rajahamsa Executive",
+    "fromCity": "Belagavi",
+    "toCity": "Uttara Kannada (Karwar)",
+    "departureTime": "02:30 PM",
+    "arrivalTime": "12:00 PM",
+    "duration": "4h 15m",
+    "price": 290,
+    "seatsAvailable": 26,
+    "amenities": [
+      "2+2 Pushback Seats",
+      "Reading Lamp",
+      "Air Suspension",
+      "Mobile Charging Points",
+      "Luggage Carrier",
+      "Emergency Exit"
+    ],
+    "_seed": 683
+  },
+  {
+    "id": "RT-387",
+    "operator": "NWKRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Uttara Kannada (Karwar)",
+    "toCity": "Udupi",
+    "departureTime": "08:00 AM",
+    "arrivalTime": "12:00 PM",
+    "duration": "4h 00m",
+    "price": 260,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 684
+  },
+  {
+    "id": "RT-388",
+    "operator": "NWKRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Udupi",
+    "toCity": "Uttara Kannada (Karwar)",
+    "departureTime": "02:30 PM",
+    "arrivalTime": "12:00 PM",
+    "duration": "4h 00m",
+    "price": 260,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 685
+  },
+  {
+    "id": "RT-389",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Bengaluru Rural",
+    "toCity": "Bengaluru",
+    "departureTime": "06:15 AM",
+    "arrivalTime": "07:30 AM",
+    "duration": "1h 15m",
+    "price": 65,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 686
+  },
+  {
+    "id": "RT-390",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Bengaluru",
+    "toCity": "Bengaluru Rural",
+    "departureTime": "03:00 PM",
+    "arrivalTime": "07:30 AM",
+    "duration": "1h 15m",
+    "price": 65,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 687
+  },
+  {
+    "id": "RT-391",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Bengaluru Rural",
+    "toCity": "Bengaluru",
+    "departureTime": "05:15 PM",
+    "arrivalTime": "06:30 PM",
+    "duration": "1h 15m",
+    "price": 65,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 688
+  },
+  {
+    "id": "RT-392",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Bengaluru",
+    "toCity": "Bengaluru Rural",
+    "departureTime": "03:00 PM",
+    "arrivalTime": "06:30 PM",
+    "duration": "1h 15m",
+    "price": 65,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 689
+  },
+  {
+    "id": "RT-393",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Bengaluru Rural",
+    "toCity": "Chikkaballapur",
+    "departureTime": "07:00 AM",
+    "arrivalTime": "07:45 AM",
+    "duration": "0h 45m",
+    "price": 45,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 690
+  },
+  {
+    "id": "RT-394",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Chikkaballapur",
+    "toCity": "Bengaluru Rural",
+    "departureTime": "03:00 PM",
+    "arrivalTime": "07:45 AM",
+    "duration": "0h 45m",
+    "price": 45,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 691
+  },
+  {
+    "id": "RT-395",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Bengaluru Rural",
+    "toCity": "Kolar",
+    "departureTime": "07:30 AM",
+    "arrivalTime": "09:00 AM",
+    "duration": "1h 30m",
+    "price": 75,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 692
+  },
+  {
+    "id": "RT-396",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Kolar",
+    "toCity": "Bengaluru Rural",
+    "departureTime": "03:00 PM",
+    "arrivalTime": "09:00 AM",
+    "duration": "1h 30m",
+    "price": 75,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 693
+  },
+  {
+    "id": "RT-397",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Bengaluru Rural",
+    "toCity": "Tumakuru",
+    "departureTime": "08:00 AM",
+    "arrivalTime": "09:45 AM",
+    "duration": "1h 45m",
+    "price": 110,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 694
+  },
+  {
+    "id": "RT-398",
+    "operator": "KSRTC Express",
+    "serviceType": "Express",
+    "fromCity": "Tumakuru",
+    "toCity": "Bengaluru Rural",
+    "departureTime": "03:00 PM",
+    "arrivalTime": "09:45 AM",
+    "duration": "1h 45m",
+    "price": 110,
+    "seatsAvailable": 26,
+    "amenities": [
+      "Cushioned Ergonomic Seating",
+      "Wide Windows & Airflow",
+      "Government Regulated Tariff",
+      "GPS Route Monitoring",
+      "Luggage Racks"
+    ],
+    "_seed": 695
   }
 ];
 
@@ -4140,9 +8124,9 @@ export const BUS_ROUTES_DATA: BusRoute[] = RAW_ROUTES_DEF.map(r => ({
   seats: generateRouteSeats(r.price, r._seed)
 }));
 
-export const searchBusRoutes = (fromCity: string, toCity: string): BusRoute[] => {
+export const getRoutesByCityPair = (from: string, to: string): BusRoute[] => {
   return BUS_ROUTES_DATA.filter(r => 
-    r.fromCity.toLowerCase().includes(fromCity.toLowerCase()) &&
-    r.toCity.toLowerCase().includes(toCity.toLowerCase())
+    r.fromCity.toLowerCase() === from.toLowerCase() && 
+    r.toCity.toLowerCase() === to.toLowerCase()
   );
 };

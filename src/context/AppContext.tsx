@@ -14,6 +14,13 @@ export type ActiveView =
   | "mytrips" 
   | "confirmation";
 
+export interface TransportNavigationOptions {
+  fromCity?: string;
+  toCity?: string;
+  standId?: string;
+  tab?: "booking" | "timetables";
+}
+
 interface AppContextType {
   language: Language;
   setLanguage: (lang: Language) => void;
@@ -37,6 +44,9 @@ interface AppContextType {
   latestBooking: UserTripBooking | null;
   navigateToDistrict: (districtId: string) => void;
   navigateToPackage: (packageId: string) => void;
+  transportFilter: TransportNavigationOptions | null;
+  setTransportFilter: (opts: TransportNavigationOptions | null) => void;
+  navigateToTransport: (opts?: TransportNavigationOptions) => void;
 }
 
 const AppContext = createContext<AppContextType | undefined>(undefined);
@@ -152,6 +162,16 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
+  const [transportFilter, setTransportFilter] = useState<TransportNavigationOptions | null>(null);
+
+  const navigateToTransport = (opts?: TransportNavigationOptions) => {
+    if (opts) {
+      setTransportFilter(opts);
+    }
+    setActiveView("transport");
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   const t = TRANSLATIONS[language];
 
   return (
@@ -178,7 +198,10 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
         addBooking,
         latestBooking,
         navigateToDistrict,
-        navigateToPackage
+        navigateToPackage,
+        transportFilter,
+        setTransportFilter,
+        navigateToTransport
       }}
     >
       {children}
