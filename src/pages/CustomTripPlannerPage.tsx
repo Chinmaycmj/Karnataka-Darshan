@@ -326,7 +326,7 @@ export const CustomTripPlannerPage: React.FC = () => {
               <span className="px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-amber-500 text-slate-950">
                 Your Customized Karnataka Journey
               </span>
-              <span className="font-serif font-extrabold text-2xl sm:text-3xl text-amber-400">
+              <span className="font-price font-extrabold text-2xl sm:text-3xl text-amber-400">
                 Est. ₹{generatedPlan.estimatedCost.toLocaleString("en-IN")}
                 <span className="text-xs font-normal text-slate-300"> (Total)</span>
               </span>

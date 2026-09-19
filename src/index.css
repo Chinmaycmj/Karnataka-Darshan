@@ -11,6 +11,13 @@
   .font-kannada {
     font-family: 'Noto Sans Kannada', system-ui, sans-serif;
   }
+
+  .font-price {
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: "tnum";
+    letter-spacing: -0.02em;
+  }
 }
 
 /* Custom scrollbar */

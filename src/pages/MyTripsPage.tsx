@@ -189,7 +189,7 @@ export const MyTripsPage: React.FC = () => {
                     <div className="flex flex-col sm:flex-row md:flex-col items-start md:items-end justify-between gap-3 shrink-0 w-full md:w-auto border-t md:border-t-0 pt-4 md:pt-0">
                       <div>
                         <span className="text-[10px] text-slate-400 uppercase font-bold block md:text-right">Total Fare</span>
-                        <div className="text-2xl font-black font-serif text-emerald-700">
+                        <div className="text-2xl font-black font-price text-emerald-700">
                           ₹{booking.totalCost.toLocaleString("en-IN")}
                         </div>
                       </div>

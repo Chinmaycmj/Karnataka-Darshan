@@ -75,7 +75,7 @@ export const StayCard: React.FC<StayCardProps> = ({ property }) => {
                 Starting From
               </span>
               <div className="flex items-baseline gap-1">
-                <span className="font-serif font-extrabold text-xl text-amber-950">
+                <span className="font-price font-extrabold text-xl text-amber-950">
                   ₹{property.priceStarting.toLocaleString("en-IN")}
                 </span>
                 <span className="text-[10px] text-slate-500">/ night</span>

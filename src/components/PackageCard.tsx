@@ -104,7 +104,7 @@ export const PackageCard: React.FC<PackageCardProps> = ({ pkg }) => {
               Estimated From
             </span>
             <div className="flex items-baseline gap-1">
-              <span className="font-serif font-extrabold text-xl sm:text-2xl text-amber-950">
+              <span className="font-price font-extrabold text-xl sm:text-2xl text-amber-950">
                 ₹{pkg.startingPrice.toLocaleString("en-IN")}
               </span>
               <span className="text-[10px] text-slate-500 font-medium">/ person</span>

@@ -1,4 +1,4 @@
-﻿import React, { useState, useMemo } from "react";
+import React, { useState, useMemo } from "react";
 import { useApp } from "../context/AppContext";
 import { BUS_ROUTES_DATA } from "../data/transportRoutes";
 import { BusRoute } from "../data/types";
@@ -350,7 +350,7 @@ export const TransportPage: React.FC = () => {
                     <div className="flex flex-col sm:flex-row lg:flex-col items-start sm:items-center lg:items-end justify-between gap-4 lg:w-1/4">
                       <div>
                         <div className="text-xs text-slate-400 text-left lg:text-right">Seat Fare from</div>
-                        <div className="text-2xl sm:text-3xl font-black text-amber-950 font-serif">
+                        <div className="text-2xl sm:text-3xl font-black text-amber-950 font-price">
                           ₹{route.price.toLocaleString("en-IN")}
                         </div>
                         <div className="text-[11px] text-emerald-700 font-semibold text-left lg:text-right mt-0.5">

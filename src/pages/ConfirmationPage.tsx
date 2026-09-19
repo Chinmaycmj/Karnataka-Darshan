@@ -1,4 +1,4 @@
-﻿import React, { useEffect } from "react";
+import React, { useEffect } from "react";
 import confetti from "canvas-confetti";
 import { useApp } from "../context/AppContext";
 import { 
@@ -178,7 +178,7 @@ export const ConfirmationPage: React.FC = () => {
               </div>
               <div className="text-left sm:text-right">
                 <span className="text-xs text-slate-400 block uppercase font-bold">Total Amount Paid</span>
-                <span className="text-2xl sm:text-3xl font-serif font-black text-emerald-700">
+                <span className="text-2xl sm:text-3xl font-price font-black text-emerald-700">
                   ₹{booking.totalCost.toLocaleString("en-IN")}
                 </span>
                 <span className="text-[10px] text-emerald-800 font-bold block bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200 mt-0.5">
@@ -218,6 +218,28 @@ export const ConfirmationPage: React.FC = () => {
                     </div>
                   </div>
                 </div>
+
+                {/* Confirmed Passenger Manifest */}
+                {booking.travelDetails.passengerList && booking.travelDetails.passengerList.length > 0 && (
+                  <div className="mt-4 pt-3 border-t border-slate-200">
+                    <span className="text-[11px] font-bold text-slate-500 uppercase tracking-wider block mb-2">
+                      Confirmed Passengers ({booking.travelDetails.passengerList.length} Travelers):
+                    </span>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
+                      {booking.travelDetails.passengerList.map((p, i) => (
+                        <div key={i} className="flex items-center justify-between bg-white px-3 py-2 rounded-xl border border-slate-200 text-xs">
+                          <div>
+                            <span className="font-bold text-slate-800 block">{p.name}</span>
+                            <span className="text-[10px] text-slate-400">{p.gender || "Adult"}{p.age ? `, Age ${p.age}` : ""}</span>
+                          </div>
+                          <span className="text-amber-800 bg-amber-50 px-2.5 py-1 rounded-lg border border-amber-200 font-mono font-bold text-xs">
+                            Seat {p.seatNumber}
+                          </span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
               </div>
             )}
 

@@ -46,6 +46,12 @@ export const PackageDetailPage: React.FC = () => {
       return;
     }
 
+    const phoneRegex = /^[6-9]\d{9}$/;
+    if (!phoneRegex.test(mobileNumber.trim())) {
+      alert("Please enter a valid 10-digit Indian mobile number (e.g. 9876543210).");
+      return;
+    }
+
     const booking: UserTripBooking = {
       id: `PKG-YN-${Math.floor(100000 + Math.random() * 900000)}`,
       bookingDate: new Date().toISOString().split("T")[0],
@@ -288,7 +294,7 @@ export const PackageDetailPage: React.FC = () => {
                 Starting Price
               </span>
               <div className="flex items-baseline gap-1">
-                <span className="font-serif font-extrabold text-3xl text-amber-950">
+                <span className="font-price font-extrabold text-3xl text-amber-950">
                   ₹{pkg.startingPrice.toLocaleString("en-IN")}
                 </span>
                 <span className="text-xs text-slate-500 font-medium">/ person</span>
@@ -370,7 +376,7 @@ export const PackageDetailPage: React.FC = () => {
               </div>
               <div className="flex justify-between text-slate-900 font-bold text-sm pt-2 border-t border-slate-100">
                 <span>Total Amount:</span>
-                <span className="font-serif font-extrabold text-xl text-amber-950">
+                <span className="font-price font-extrabold text-xl text-amber-950">
                   ₹{totalCost.toLocaleString("en-IN")}
                 </span>
               </div>

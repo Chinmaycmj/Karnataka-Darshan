@@ -9,6 +9,7 @@ import { DistrictCard } from "../components/DistrictCard";
 import { PackageCard } from "../components/PackageCard";
 import { DestinationCard } from "../components/DestinationCard";
 import { StayCard } from "../components/StayCard";
+import { YaatriAIAssistant } from "../components/YaatriAIAssistant";
 import { 
   Search, 
   Sparkles, 
@@ -90,8 +91,8 @@ export const HomePage: React.FC = () => {
         {/* Background Hero Image with Deep Gradient */}
         <div className="absolute inset-0 overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=2000&q=85"
-            alt="Karnataka Heritage Tourism"
+            src="https://images.unsplash.com/photo-1600100397608-f010f44383a0?auto=format&fit=crop&w=2000&q=85"
+            alt="Karnataka Heritage Tourism - Mysore Palace"
             className="w-full h-full object-cover scale-105 animate-subtleZoom opacity-45"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/60 to-black/70"></div>
@@ -180,25 +181,30 @@ export const HomePage: React.FC = () => {
           {/* Quick Metrics */}
           <div className="pt-8 grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-3xl mx-auto text-center border-t border-white/15">
             <div>
-              <span className="font-serif font-bold text-xl sm:text-2xl text-amber-400">31</span>
+              <span className="font-price font-bold text-xl sm:text-2xl text-amber-400">31</span>
               <p className="text-[11px] text-slate-400 uppercase tracking-wider">Districts Covered</p>
             </div>
             <div>
-              <span className="font-serif font-bold text-xl sm:text-2xl text-amber-400">100+</span>
+              <span className="font-price font-bold text-xl sm:text-2xl text-amber-400">100+</span>
               <p className="text-[11px] text-slate-400 uppercase tracking-wider">Official Attractions</p>
             </div>
             <div>
-              <span className="font-serif font-bold text-xl sm:text-2xl text-amber-400">31</span>
+              <span className="font-price font-bold text-xl sm:text-2xl text-amber-400">31</span>
               <p className="text-[11px] text-slate-400 uppercase tracking-wider">Yaatri Niwaas Stays</p>
             </div>
             <div>
-              <span className="font-serif font-bold text-xl sm:text-2xl text-amber-400">50+</span>
+              <span className="font-price font-bold text-xl sm:text-2xl text-amber-400">50+</span>
               <p className="text-[11px] text-slate-400 uppercase tracking-wider">KSRTC Bus Circuits</p>
             </div>
           </div>
 
         </div>
 
+      </section>
+
+      {/* AI ASSISTANT CONCIERGE */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-6 relative z-20">
+        <YaatriAIAssistant isEmbedded={true} />
       </section>
 
       {/* 4. EXPLORE KARNATAKA INTRO */}

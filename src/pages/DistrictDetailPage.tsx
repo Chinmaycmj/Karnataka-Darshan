@@ -351,7 +351,7 @@ export const DistrictDetailPage: React.FC = () => {
               <div className="pt-4 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-4">
                 <div>
                   <span className="text-[10px] text-slate-400 block uppercase tracking-wider">Prices From</span>
-                  <span className="font-serif font-extrabold text-2xl text-amber-950">
+                  <span className="font-price font-extrabold text-2xl text-amber-950">
                     ₹{stay.priceStarting.toLocaleString("en-IN")}
                     <span className="text-xs font-normal text-slate-500"> / night</span>
                   </span>

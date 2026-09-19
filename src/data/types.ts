@@ -191,12 +191,20 @@ export interface UserTripBooking {
     to: string;
     departureTime: string;
     seats: string[];
+    passengerPhone?: string;
+    passengerList?: {
+      seatNumber: string;
+      name: string;
+      age?: string;
+      gender?: string;
+    }[];
   };
   stayDetails?: {
     hotelName: string;
     roomType: string;
     nights: number;
     guests: number;
+    guestPhone?: string;
   };
   itinerarySummary?: string[];
 }

@@ -8,7 +8,7 @@ export const DISTRICTS_DATA: District[] = [
     "region": "North Karnataka",
     "tagline": "Cradle of Temple Architecture & Chalukyan Majesty",
     "shortDescription": "Bagalkote is a treasure trove of ancient Indian architecture, housing the rock-cut cave temples of Badami, the UNESCO World Heritage monuments of Pattadakal, and the historic temples of Aihole.",
-    "heroImage": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=1200&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1624442111197-0f81d19dc81e?auto=format&fit=crop&w=1200&q=80",
     "highlights": [
       "Badami Cave Temples",
       "Pattadakal UNESCO Monuments",
@@ -151,7 +151,7 @@ export const DISTRICTS_DATA: District[] = [
     "region": "Bengaluru",
     "tagline": "Silk Weaving Corridors & Ancient Fortified Towns",
     "shortDescription": "Surrounding the metropolis, Bengaluru Rural is steeped in craft heritage with Doddaballapura silk looms, Tipu Sultan birthplace at Devanahalli Fort, and sacred Ghati Subramanya.",
-    "heroImage": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
     "highlights": [
       "Devanahalli Fort",
       "Ghati Subramanya Temple",
@@ -295,7 +295,7 @@ export const DISTRICTS_DATA: District[] = [
     "region": "North Karnataka",
     "tagline": "Frontier Fortresses, Waterfalls & Heritage Confluence",
     "shortDescription": "Nestled along Western Ghats foothills, Belagavi boasts the massive Belagavi Fort with Kamal Basti Jain temple, roaring Gokak Falls, and Kittur heroic history of Rani Chennamma.",
-    "heroImage": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=1200&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1518457607834-6e8d80c183c5?auto=format&fit=crop&w=1200&q=80",
     "highlights": [
       "Belagavi Fort & Kamal Basti",
       "Gokak Waterfalls & Suspension Bridge",
@@ -435,7 +435,7 @@ export const DISTRICTS_DATA: District[] = [
     "region": "South Karnataka",
     "tagline": "Untamed Tiger Reserves & Sacred Mist-Clad Hills",
     "shortDescription": "Bordering the Nilgiris, Chamarajanagar is Karnataka prime wilderness sanctuary, hosting the famous Bandipur Tiger Reserve, bio-diverse BR Hills, and roaring Bharachukki Falls.",
-    "heroImage": "https://images.unsplash.com/photo-1561731216-c3a4d99437d5?auto=format&fit=crop&w=1200&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?auto=format&fit=crop&w=1200&q=80",
     "highlights": [
       "Bandipur National Park Tiger Reserve",
       "Biligirirangana Hills (BR Hills)",
@@ -505,7 +505,7 @@ export const DISTRICTS_DATA: District[] = [
     "region": "Bengaluru",
     "tagline": "Majestic Nandi Hills & Ancient Dravidian Temples",
     "shortDescription": "Famous for the cloud-kissed peaks of Nandi Hills, Chikkaballapur houses the thousand-year-old Bhoga Nandeeshwara temple, Sir M. Visvesvaraya memorial at Muddenahalli, and Skandagiri sunrise peak.",
-    "heroImage": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
     "highlights": [
       "Nandi Hills & Tipu Drop",
       "Bhoga Nandeeshwara Temple (Nandi Village)",
@@ -577,7 +577,7 @@ export const DISTRICTS_DATA: District[] = [
     "region": "Malnad",
     "tagline": "The Coffee Cradle & Highest Peaks of Karnataka",
     "shortDescription": "Where coffee was first planted in India on Baba Budangiri hills, Chikkamagaluru is a paradise of mist-covered mountain summits including Mullayanagiri (highest peak in Karnataka), rolling coffee estates, and waterfalls.",
-    "heroImage": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1511497584788-87676104235f?auto=format&fit=crop&w=1200&q=80",
     "highlights": [
       "Mullayanagiri Peak",
       "Baba Budangiri & Datta Peeta",
@@ -721,7 +721,7 @@ export const DISTRICTS_DATA: District[] = [
     "region": "Coastal Karnataka",
     "tagline": "Coastal Temples, Golden Beaches & Culinary Glory",
     "shortDescription": "Centred around the port city of Mangaluru, Dakshina Kannada harmonizes sacred shrines like Kudroli and Dharmasthala, pristine beaches at Panambur, the thousand-pillar Jain basadi of Moodabidri, and world-famed coastal gastronomy.",
-    "heroImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1200&q=80",
     "highlights": [
       "Mangaladevi & Kudroli Temples",
       "Panambur Beach & Tannirbhavi",
@@ -794,7 +794,7 @@ export const DISTRICTS_DATA: District[] = [
     "region": "Central Karnataka",
     "tagline": "Textile Heart & Home of the Legendary Benne Dosa",
     "shortDescription": "Situated in the heart of Karnataka, Davanagere is famous for its crisp Benne Dosa, the ancient pushkarini stepwell of Santhebennur, Kunduvada scenic reservoir, and lush cotton tracts.",
-    "heroImage": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1668236543090-82eba5ee5976?auto=format&fit=crop&w=1200&q=80",
     "highlights": [
       "Santhebennur Pushkarini Stepwell",
       "Kunduvada Lake & Promenade",
@@ -865,7 +865,7 @@ export const DISTRICTS_DATA: District[] = [
     "region": "North Karnataka",
     "tagline": "Gateway to Classical Music, Literature & Peda",
     "shortDescription": "The cultural and intellectual soul of North Karnataka, Dharwad is renowned for Hindustani classical musical masters, pristine Chandramouleshwara 11th-century temple at Unkal, Hubballi heritage railway museum, and the iconic Dharwad Peda.",
-    "heroImage": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=1200&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1599785209707-a456fc1337bb?auto=format&fit=crop&w=1200&q=80",
     "highlights": [
       "Chandramouleshwara Temple (Unkal)",
       "Hubballi Heritage Railway Museum",
@@ -937,7 +937,7 @@ export const DISTRICTS_DATA: District[] = [
     "region": "North Karnataka",
     "tagline": "Stepwells, Kalyana Chalukya Marvels & Bird Sanctuaries",
     "shortDescription": "An open-air museum of Kalyana Chalukyan architecture, Gadag contains famed Lakkundi stepped wells and temples, Trikuteshwara temple with Saraswati shrine, and winter haven for Bar-headed geese at Magadi.",
-    "heroImage": "https://images.unsplash.com/photo-1596405344148-2d0df3365f5a?auto=format&fit=crop&w=1200&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1609137144822-2633cb8e29a9?auto=format&fit=crop&w=1200&q=80",
     "highlights": [
       "Lakkundi Temple & Stepwell Complex",
       "Trikuteshwara Temple Complex",
@@ -1009,7 +1009,7 @@ export const DISTRICTS_DATA: District[] = [
     "region": "Malnad",
     "tagline": "Masterpieces of Hoysala Architecture & Monolithic Jain Splendor",
     "shortDescription": "Home to the pinnacle of Hoysala temple craftsmanship at Belur and Halebeedu, Hassan features the 57-foot Gommateshwara statue at Shravanabelagola and the Gothic ruins of Shettihalli Church submerged in Hemavathi waters.",
-    "heroImage": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=1200&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1615887110697-0819ec23465f?auto=format&fit=crop&w=1200&q=80",
     "highlights": [
       "Belur Chennakeshava Temple",
       "Halebeedu Hoysaleshwara Temple",
@@ -1082,7 +1082,7 @@ export const DISTRICTS_DATA: District[] = [
     "region": "Central Karnataka",
     "tagline": "Land of Saints, Temples & Byadagi Red Chillies",
     "shortDescription": "Cradled by the Tungabhadra river, Haveri is the land of mystic saint Kanakadasa and poet Sarvajna, boasting ancient Chalukyan shrines at Hangal, the Ranebennur Blackbuck Sanctuary, and Byadagi spice markets.",
-    "heroImage": "https://images.unsplash.com/photo-1596405344148-2d0df3365f5a?auto=format&fit=crop&w=1200&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=1200&q=80",
     "highlights": [
       "Ranebennur Blackbuck Sanctuary",
       "Tarakeshwara Temple (Hangal)",
@@ -1154,7 +1154,7 @@ export const DISTRICTS_DATA: District[] = [
     "region": "Kalyana Karnataka",
     "tagline": "Sufi Shrines, Bahmani Citadels & Ancient Ashokan Edicts",
     "shortDescription": "Formerly Gulbarga, Kalaburagi is the medieval capital of the Bahmani Sultanate, boasting the massive Gulbarga Fort with its unique domed Great Jami Masjid, sacred Sufi shrine of Khwaja Bande Nawaz, and Ashokan Buddhist site at Sannati.",
-    "heroImage": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1200&q=80",
     "highlights": [
       "Gulbarga Fort & Great Jami Masjid",
       "Khwaja Bande Nawaz Dargah",
@@ -1225,7 +1225,7 @@ export const DISTRICTS_DATA: District[] = [
     "region": "Malnad",
     "tagline": "Scotland of India: Mist, Coffee & Brave Warriors",
     "shortDescription": "Cradled in the Western Ghats, Kodagu (Coorg) is celebrated for coffee and spice estates, roaring Abbey Falls, birth of river Cauvery at Talakaveri, Dubare elephant camp, and the unique martial culture of the Kodavas.",
-    "heroImage": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1592639296346-560c37a0f711?auto=format&fit=crop&w=1200&q=80",
     "highlights": [
       "Abbey Falls",
       "Raja Seat (Madikeri)",
@@ -1369,7 +1369,7 @@ export const DISTRICTS_DATA: District[] = [
     "region": "Kalyana Karnataka",
     "tagline": "Epic Kishkindha, Kinnal Toys & Emperor of Temples",
     "shortDescription": "Bordering the Tungabhadra, Koppal is steeped in Ramayana lore with Anegundi (Kishkindha), the architectural marvel of Itagi Mahadeva Temple (Emperor of Temples), and the GI-tagged Kinnal wooden craft village.",
-    "heroImage": "https://images.unsplash.com/photo-1596405344148-2d0df3365f5a?auto=format&fit=crop&w=1200&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=1200&q=80",
     "highlights": [
       "Anegundi Kishkindha Heritage",
       "Mahadeva Temple (Itagi)",
@@ -1442,7 +1442,7 @@ export const DISTRICTS_DATA: District[] = [
     "region": "South Karnataka",
     "tagline": "Sugar Capital, Island Fortresses & Roaring Waterfalls",
     "shortDescription": "Fed by the Cauvery, Mandya is Karnataka sugar belt, home to Tipu Sultan island capital at Srirangapatna, twin waterfalls of Shivanasamudra (Gaganachukki), Ranganathittu Bird Sanctuary, and sacred Melukote.",
-    "heroImage": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=1200&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=80",
     "highlights": [
       "Shivanasamudra Falls (Gaganachukki)",
       "Srirangapatna (Daria Daulat & Ranganathaswamy)",
@@ -1516,7 +1516,7 @@ export const DISTRICTS_DATA: District[] = [
     "region": "South Karnataka",
     "tagline": "The Royal Heritage City of Palaces & Silk",
     "shortDescription": "Karnataka cultural capital, Mysuru is world-famous for the illuminated Mysuru Palace, Chamundi Hills, vibrant Dasara festivities, Somanathapura Hoysala temple, Devaraja Market, and Mysore Silk.",
-    "heroImage": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1600100397608-f010f44383a0?auto=format&fit=crop&w=1200&q=80",
     "highlights": [
       "Mysuru Palace (Amba Vilas)",
       "Chamundi Hills & Nandi Bull",
@@ -1590,7 +1590,7 @@ export const DISTRICTS_DATA: District[] = [
     "region": "Kalyana Karnataka",
     "tagline": "The Doab Citadel Between Krishna & Tungabhadra",
     "shortDescription": "Occupying the fertile doab between Krishna and Tungabhadra rivers, Raichur boasts a colossal hilltop fort with Persian and Sanskrit inscriptions, medieval Mudgal Fort, and ancient temple city of Gabbur.",
-    "heroImage": "https://images.unsplash.com/photo-1596405344148-2d0df3365f5a?auto=format&fit=crop&w=1200&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=80",
     "highlights": [
       "Raichur Hill Fort & Persian Gate",
       "Mudgal Medieval Fort",
@@ -1661,7 +1661,7 @@ export const DISTRICTS_DATA: District[] = [
     "region": "Bengaluru",
     "tagline": "Land of Silk, Sholay Boulders & Channapatna Toys",
     "shortDescription": "Famous as the dramatic boulder location for the film Sholay at Ramadevara Betta, Ramanagara is India largest silk cocoon market, home to Asia largest monolith hill at Savandurga, and wooden toy craft of Channapatna.",
-    "heroImage": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=1200&q=80",
     "highlights": [
       "Ramadevara Betta (Vulture Sanctuary & Sholay Rocks)",
       "Channapatna Wooden Toys Craft Village",
@@ -1733,7 +1733,7 @@ export const DISTRICTS_DATA: District[] = [
     "region": "Malnad",
     "tagline": "Gateway to Malnad: Cascading Falls & Rainforests",
     "shortDescription": "Cradled in emerald Western Ghats rainforests, Shivamogga is home to India most magnificent untiered cascade — Jog Falls, sacred peak of Kodachadri, Sakrebyle Elephant Camp, King Cobra sanctuary at Agumbe, and ancient Keladi palaces.",
-    "heroImage": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1200&q=80",
     "highlights": [
       "Jog Falls (Raja, Roarer, Rocket, Rani)",
       "Kodachadri Peak & Trek",
@@ -1808,7 +1808,7 @@ export const DISTRICTS_DATA: District[] = [
     "region": "Central Karnataka",
     "tagline": "Sacred Hills, Hillock Springs & Industrial Prowess",
     "shortDescription": "Crowned by picturesque hill chains, Tumakuru offers sacred pilgrimage at Devarayanadurga with its Yoga Narasimha temple, mystical perennial spring of Namada Chilume, massive Pavagada rock fort, and Siddaganga Math.",
-    "heroImage": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
     "highlights": [
       "Devarayanadurga Hill Station & Narasimha Temple",
       "Namada Chilume Natural Spring",
@@ -1954,7 +1954,7 @@ export const DISTRICTS_DATA: District[] = [
     "region": "Coastal Karnataka",
     "tagline": "Gokarna Beaches, Giant Shiva & Dense Kali Jungles",
     "shortDescription": "Karnataka most forested district blends the sacred pilgrim shores of Gokarna (Om Beach), towering 123-foot Shiva statue at Murudeshwara, black crystalline karst monoliths at Yana, and whitewater rafting in Dandeli.",
-    "heroImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1628155930542-3c7a64e2c833?auto=format&fit=crop&w=1200&q=80",
     "highlights": [
       "Gokarna (Om Beach, Kudle Beach, Mahabaleshwar)",
       "Murudeshwara Temple & Giant Shiva Statue",
@@ -2028,7 +2028,7 @@ export const DISTRICTS_DATA: District[] = [
     "region": "North Karnataka",
     "tagline": "City of Whispering Domes & Adil Shahi Elegance",
     "shortDescription": "Formerly Bijapur, this historic capital of the Adil Shahi dynasty is world-famous for Gol Gumbaz (second largest dome in the world with its Whispering Gallery), palatial Ibrahim Rouza, and majestic Bara Kaman.",
-    "heroImage": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=1200&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1599818491030-ad6a30c5e73a?auto=format&fit=crop&w=1200&q=80",
     "highlights": [
       "Gol Gumbaz & Whispering Gallery",
       "Ibrahim Rouza (Taj of the South)",
@@ -2100,7 +2100,7 @@ export const DISTRICTS_DATA: District[] = [
     "region": "Kalyana Karnataka",
     "tagline": "Fortresses of Monolithic Stone & Bhima River Valley",
     "shortDescription": "Carved from monolithic stone outcrops, Yadgir boasts a hilltop fort with three layers of fortification, scenic Sleeping Buddha hill formations of Shahapur, Mailapur shrine, and fertile banks of Bhima and Krishna rivers.",
-    "heroImage": "https://images.unsplash.com/photo-1596405344148-2d0df3365f5a?auto=format&fit=crop&w=1200&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1568454537842-d933259bb258?auto=format&fit=crop&w=1200&q=80",
     "highlights": [
       "Yadgir Hilltop Fort",
       "Sleeping Buddha Hills (Shahapur)",
@@ -2169,7 +2169,7 @@ export const DISTRICTS_DATA: District[] = [
     "region": "North Karnataka",
     "tagline": "Capital of the Forgotten Empire & UNESCO Wonder Hampi",
     "shortDescription": "Karnataka 31st district, created in 2020 with Hosapete as headquarters, encompasses the glorious UNESCO World Heritage site of Hampi — capital of the mighty Vijayanagara Empire with the iconic Stone Chariot, Virupaksha temple, and Tungabhadra waters.",
-    "heroImage": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=1200&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?auto=format&fit=crop&w=1200&q=80",
     "highlights": [
       "Hampi UNESCO World Heritage Monuments",
       "Virupaksha Temple",

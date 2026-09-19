@@ -22,7 +22,13 @@ export const StayBookingModal: React.FC<StayBookingModalProps> = ({ property, on
 
   const handleBooking = () => {
     if (!guestName.trim()) {
-      alert("Please enter guest name.");
+      alert("Please enter primary guest name.");
+      return;
+    }
+
+    const cleanPhone = guestPhone.replace(/\D/g, "");
+    if (!/^[6-9]\d{9}$/.test(cleanPhone)) {
+      alert("Please enter a valid 10-digit Indian mobile number (e.g. 9876543210).");
       return;
     }
 
@@ -186,15 +192,21 @@ export const StayBookingModal: React.FC<StayBookingModalProps> = ({ property, on
             </div>
             <div>
               <label className="block text-xs font-bold text-slate-700 mb-1">
-                Contact Phone Number
+                Contact Phone Number (10 Digits) *
               </label>
-              <input
-                type="tel"
-                placeholder="10-digit mobile number"
-                value={guestPhone}
-                onChange={(e) => setGuestPhone(e.target.value)}
-                className="w-full px-3 py-2 text-xs rounded-xl border border-slate-200 focus:outline-none focus:border-amber-600"
-              />
+              <div className="flex items-center gap-1.5">
+                <span className="px-2.5 py-2 bg-slate-100 border border-slate-200 text-xs font-bold text-slate-600 rounded-xl">
+                  +91
+                </span>
+                <input
+                  type="tel"
+                  maxLength={10}
+                  placeholder="10-digit mobile (e.g. 9876543210)"
+                  value={guestPhone}
+                  onChange={(e) => setGuestPhone(e.target.value.replace(/\D/g, "").slice(0, 10))}
+                  className="w-full px-3 py-2 text-xs rounded-xl border border-slate-200 focus:outline-none focus:border-amber-600 font-price font-semibold"
+                />
+              </div>
             </div>
           </div>
 
@@ -210,7 +222,7 @@ export const StayBookingModal: React.FC<StayBookingModalProps> = ({ property, on
               <span className="text-xs text-slate-500 block">
                 Total for {nights} Nights ({selectedRoom.name})
               </span>
-              <span className="font-serif font-extrabold text-2xl text-amber-950">
+              <span className="font-price font-extrabold text-2xl text-amber-950">
                 ₹{totalPrice.toLocaleString("en-IN")}
               </span>
             </div>
